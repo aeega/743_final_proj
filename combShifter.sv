@@ -15,12 +15,31 @@ module combShifter( Ip, Op);
     input  [0:LEN-1] Ip; //The LEN-bit Input line 
     output [0:LEN-1] Op; //The LEN-bit Output line 
     wire [0:(2*MAX_SHIFT_MAG)] shift_mag; //The LEN shift magnitude selection Input
-    genvar i;
-    //Use baseBlock to get the output
+    wire [0:(2*MAX_SHIFT_MAG)]and_out_msb;
+    genvar i, j;
+    
     generate
-        for(i=0; i<LEN; i++) begin
-            baseBlock B1(Ip, i, Op_bit[i]);
-        end
+        for(j=0; j<LEN; j++) begin //{ Index
+
+        // Base block logic
+            for(i=0; i<(2*MAX_SHIFT_MAG+1); i++) begin //{
+                // No WA
+                if((j-MAX_SHIFT_MAG+i) < 0) begin//{
+                //if((MAX_SHIFT_MAG+i) < 0) begin
+                    assign and_out_msb[i] = 0;
+                end else if(j-MAX_SHIFT_MAG+i > LEN-1) begin 
+                //end else if(MAX_SHIFT_MAG+i > LEN-1) begin 
+                    assign and_out_msb[i] = 0;
+                // Actual AND output
+                end else begin 
+                    assign and_out_msb[i] = Ip[j-MAX_SHIFT_MAG+i] & shift_mag[i];
+                end //}
+            end //}
+        
+        assign Op[j] = |and_out_msb;
+
+
+        end //}
     endgenerate
 
 endmodule

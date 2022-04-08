@@ -7,19 +7,17 @@
 
 module combShifter_tb;
     // Inputs
-    parameter MAX_SHIFT_MAG, wa, LEN;
-    reg[0:LEN-1] Ip;
+    reg[0:7] Ip;
     // Outputs
-    wire[0:LEN-1] Op;
+    wire[0:7] Op;
     
     // Instantiate the Module Under Test
-    combShifter mut(.Ip(Ip), .Op(Op), .MAX_SHIFT_MAG(MAX_SHIFT_MAG), .wa(wa), .LEN(LEN));
+    combShifter mut(.Ip(Ip), .Op(Op));
     
     initial begin
         // Initialize the input parameters
-        LEN = 8;
-        wa = 0;
-        MAX_SHIFT_MAG = 2;
+        //LEN = 8;
+        //wa = 0;
     
         // Initialize the inputs
         Ip = 8'b0000_0000;
@@ -28,14 +26,16 @@ module combShifter_tb;
     
         Ip = 8'b0000_0001;
         #20
-        $sformat("TB_DEBUG_PRINTS","Ip is %b", Ip);
+        $display("Ip is %b", Ip);
+        $display("Op is %b", Op);
 
    
         Ip = 8'b0000_0010;
         #20
     
         Ip = 8'b0000_0100;
-        #20
+        #100
+        $finish;
     
     end
 
