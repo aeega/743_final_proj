@@ -1,0 +1,133 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/DVEfiles//crash_04.11-16.08/dve_session04.11-16.08.tcl} {gui_load_session -ignore_errors -file /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/DVEfiles//crash_04.11-16.07/dve_session04.11-16.07.tcl} {gui_load_session -ignore_errors -file /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/session.inter.vpd.tcl -ignore_errors} {gui_load_session -ignore_errors -file /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/session.inter.vpd.tcl} {gui_load_session -ignore_errors -file /afs/andrew.cmu.edu/usr13/aeega/private/18743/lab2/SIM/synapse/session.inter.vpd.tcl -ignore_errors}}
+gui_set_state_value -category Layout -key child_console_docknewline -value false
+gui_set_state_value -category Layout -key child_console_dockstate -value undocked
+gui_set_state_value -category Layout -key child_console_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_console_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_console_showstate -value maximized
+gui_set_state_value -category Layout -key child_console_size_x -value 1404
+gui_set_state_value -category Layout -key child_console_size_y -value 871
+gui_set_state_value -category Layout -key child_data_coltype -value 74
+gui_set_state_value -category Layout -key child_data_colvalue -value 12
+gui_set_state_value -category Layout -key child_data_colvariable -value 170
+gui_set_state_value -category Layout -key child_data_size_x -value 258
+gui_set_state_value -category Layout -key child_data_size_y -value 877
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 132
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 10
+gui_set_state_value -category Layout -key child_hier_size_x -value 131
+gui_set_state_value -category Layout -key child_hier_size_y -value 877
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1482
+gui_set_state_value -category Layout -key child_schematic_size_y -value 724
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1405
+gui_set_state_value -category Layout -key child_source_size_y -value 872
+gui_set_state_value -category Layout -key child_wave_colname -value 287
+gui_set_state_value -category Layout -key child_wave_colvalue -value 0
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 291
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 1104
+gui_set_state_value -category Layout -key child_wave_size_x -value 1405
+gui_set_state_value -category Layout -key child_wave_size_y -value 872
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 60
+gui_set_state_value -category Layout -key main_size_x -value 1791
+gui_set_state_value -category Layout -key main_size_y -value 1044
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 853
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 337
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 286
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 296
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1134
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 794
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key {EkFileDialogImpl|directory history/editor} -value_type string -value /afs/andrew.cmu.edu/usr13/aeega/private/18743/lab2/
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd0|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value *score*
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd1|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {*inst* *insert* *full* *table*}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {*btb* *pc* *stall* *stall}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd3|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {*issue* *num* *num}
+gui_create_state_key -category Widget_History -key TopLevel.2|EkTopVbox|wndWorkspace|qt_workspacechild12|Wave.1|left|filterVBox|controlHBox|unnamed -value_type string -value *reg
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_left_dock|DockWnd11|DLPane.2|pages|Data.2|hbox|textfilter -value_type string -value {*pc* *reg* *ctrl_si*}
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_left_dock|DockWnd3|DLPane.2|pages|Data.2|hbox|textfilter -value_type string -value {*ctlr_si* *instr_addr* *instr* *clk*}
+gui_create_state_key -category Widget_History -key {dlgPrintSetup|Select File Dialog|directory history/editor} -value_type string -value /afs/andrew.cmu.edu/usr13/aeega/private/18743/lab2/
+gui_create_state_key -category Widget_History -key dlgSearchValue|m_ValueComboBox -value_type string -value 10
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Source.1 { combShifter_tb } -insertionbar
+gui_sim_continue  
+gui_zoom -window Wave.1 -full
+gui_list_expand -id Hier.1   combShifter_tb
+gui_list_action -id  Hier.1 combShifter_tb
+gui_list_select -id Hier.1 -current_item_name combShifter_tb.mut -current_item_type Scope  -selected  { combShifter_tb.mut   }
+gui_list_action -id  Hier.1 combShifter_tb.mut
+gui_list_select -id Data.1 -selected  { {combShifter_tb.mut.and_out_msb[0:4]}   }
+gui_list_add -id Wave.1 -from Data.1 { {combShifter_tb.mut.and_out_msb[0:4]} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 220866
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 110000
+gui_list_select -id Wave.1 -selected  { {combShifter_tb.mut.and_out_msb[0:4]}   }
+gui_list_expand -id  Wave.1   {combShifter_tb.mut.and_out_msb[0:4]}
+gui_sim_restart
+gui_list_action -id  Hier.1 combShifter_tb.mut
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 44 -fileIdFrom 0 -lto 29 -idxto 65 -fileIdTo 0 -selection {Ip[j-MAX_SHIFT_MAG+i]} -selectionId 0 -replace 0
+gui_sim_continue  
+gui_wv_zoom_timerange -id  Wave.1 167500 463633
+gui_marker_move -id  Wave.1 C1 268679
+gui_marker_move -id  Wave.1 C1 239991
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {combShifter_tb.mut.and_out_msb[2]}   }
+gui_list_action -id  Wave.1 {combShifter_tb.mut.and_out_msb[2]}
+gui_get_drivers -id Wave.1 -signal {combShifter_tb.mut.and_out_msb[2]}
+gui_list_select -id DriverLoad.1 -selected  { {Sim:combShifter_tb.mut.and_out_msb[2] 115000 0}   }
+gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.0}   }
+gui_marker_move -id  Wave.1 C1 110000
+gui_list_select -id Wave.1 -selected  { {combShifter_tb.mut.and_out_msb[2]}   }
+gui_list_action -id  Wave.1 {combShifter_tb.mut.and_out_msb[2]}
+gui_get_drivers -id Wave.1 -signal {combShifter_tb.mut.and_out_msb[2]}
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 1.0}   }
+gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.0}   }
+gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 1.0}   }
+gui_list_action -id  Data.1 {combShifter_tb.mut.and_out_msb[0:4]}
+gui_src_highlight_item -id Source.1 -lfrom 18 -idxfrom 30 -fileIdFrom 0 -lto 18 -idxto 41 -fileIdTo 0 -selection {and_out_msb} -selectionId 0 -replace 0
+gui_show_drivers -signal  {combShifter_tb.mut.and_out_msb[0:4]}
+gui_get_drivers -id Source.1 -signal {combShifter_tb.mut.and_out_msb[0:4]}
+gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.1}   }
+gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.0}   }
+gui_do_show_driver_load TopLevel.1
+gui_list_select -id DriverLoad.1 -selected  { {Sim:combShifter_tb.mut.and_out_msb[2] 110000 1}   }
+gui_do_show_driver_load TopLevel.1
+gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 1.0}   }
+gui_do_show_driver_load TopLevel.1
+gui_wv_zoom_timerange -id  Wave.1 0 335000
+gui_list_select -id Wave.1 -selected  { {combShifter_tb.shift_mag[0:4]}   }
+gui_zoom -window Wave.1 -full
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 115000
+gui_marker_move -id  Wave.1 C1 110000
+#gui_exit
+
