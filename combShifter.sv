@@ -30,12 +30,14 @@
 
                The output(Op) is of the same length as of the Ip and is a shifted version of the
                Input spike by the magnitude provided.
+
 ====================================================================================================
 */
 
 module combShifter( Ip, Op, shift_mag);        
     parameter LEN = 8;
     parameter MAX_SHIFT_MAG = 2;
+    parameter WRAP_AROUND = 1;
 
     input bit [0:LEN-1] Ip; //The LEN-bit Input line 
     output bit [0:LEN-1] Op; //The LEN-bit Output line 
@@ -48,9 +50,15 @@ module combShifter( Ip, Op, shift_mag);
 
         // Base block logic
             for(i=0; i<(2*MAX_SHIFT_MAG+1); i=i+1) begin //{
-                // No WA
+                // With wrap around 
+                if(WRAP_AROUND) begin 
+                    assign and_out_msb[j][i] =  ((j-MAX_SHIFT_MAG+i) < 0) ? (Ip[j-MAX_SHIFT_MAG+i+LEN] & shift_mag[i]): // NOOBs
+                                                ((j-MAX_SHIFT_MAG+i) >= LEN) ? (Ip[j-MAX_SHIFT_MAG+i-LEN] & shift_mag[i]): // POOBs
+                                                (Ip[j-MAX_SHIFT_MAG+i] & shift_mag[i]); // WIBs
+                // No wrap around 
+                end else begin
                     assign and_out_msb[j][i] = ((j-MAX_SHIFT_MAG+i) >= 0) ? (Ip[j-MAX_SHIFT_MAG+i] & shift_mag[i]) : 1'b0;
-                // TODO:WA    
+                end
             end //}
         
         assign Op[j] = |and_out_msb[j];

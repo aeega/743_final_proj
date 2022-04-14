@@ -1,14 +1,14 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Mon Apr 11 16:07:31 2022
+# Saved on Wed Apr 13 21:06:32 2022
 # Designs open: 1
 #   Sim: /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/simv
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: combShifter_tb
-#   Wave.1: 4 signals
+#   Wave.1: 3 signals
 #   Group count = 1
-#   Group Group1 signal count = 4
+#   Group combShifter_tb signal count = 3
 # End_DVE_Session_Save_Info
 
 # DVE version: K-2015.09_Full64
@@ -67,7 +67,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state maximized -rect {{0 60} {1791 1044}}
+gui_show_window -window ${TopLevel.1} -show_state maximized -rect {{0 60} {1790 893}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -114,18 +114,18 @@ gui_show_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 132]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 287]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 132
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 287
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 131} {height 877} {dock_state left} {dock_on_new_line true} {child_hier_colhier 132} {child_hier_coltype 10} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 259]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 286} {height 726} {dock_state left} {dock_on_new_line true} {child_hier_colhier 222} {child_hier_coltype 58} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 255]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 259
-gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 877
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 255
+gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 726
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 258} {height 877} {dock_state left} {dock_on_new_line true} {child_data_colvariable 170} {child_data_colvalue 12} {child_data_coltype 74} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 254} {height 726} {dock_state left} {dock_on_new_line true} {child_data_colvariable 170} {child_data_colvalue 12} {child_data_coltype 74} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -155,7 +155,7 @@ gui_show_window -window ${Source.1} -show_state maximized
 gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
 set Wave.1 [gui_create_window -type {Wave}  -parent ${TopLevel.1}]
 gui_show_window -window ${Wave.1} -show_state maximized
-gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 291} {child_wave_right 1104} {child_wave_colname 287} {child_wave_colvalue 0} {child_wave_col1 0} {child_wave_col2 1}}
+gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 258} {child_wave_right 985} {child_wave_colname 254} {child_wave_colvalue 0} {child_wave_col1 0} {child_wave_col2 1}}
 
 # End MDI window settings
 
@@ -201,14 +201,14 @@ gui_set_time_units 1ps
 # Global: Signal Compare
 
 # Global: Signal Groups
-gui_load_child_values {combShifter_tb.mut}
+gui_load_child_values {combShifter_tb}
 
 
-set _session_group_1 Group1
+set _session_group_1 combShifter_tb
 gui_sg_create "$_session_group_1"
-set Group1 "$_session_group_1"
+set combShifter_tb "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { combShifter_tb.mut.Ip combShifter_tb.mut.shift_mag combShifter_tb.mut.and_out_msb combShifter_tb.mut.Op }
+gui_sg_addsignal -group "$_session_group_1" { combShifter_tb.Ip combShifter_tb.shift_mag combShifter_tb.Op }
 
 # Global: Highlighting
 
@@ -218,7 +218,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 110000
+gui_set_time -C1_only 361399
 
 
 
@@ -260,7 +260,7 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 gui_src_value_annotate -id ${Source.1} -switch false
 gui_set_env TOGGLE::VALUEANNOTATE 0
 gui_open_source -id ${Source.1}  -replace -active combShifter_tb /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/combShifter_tb.sv
-gui_view_scroll -id ${Source.1} -vertical -set 0
+gui_view_scroll -id ${Source.1} -vertical -set 112
 gui_src_set_reusable -id ${Source.1}
 
 # View 'Wave.1'
@@ -272,9 +272,8 @@ gui_list_set_height -id Wave -height 25
 set origGroupCreationState [gui_list_create_group_when_add -wave]
 gui_list_create_group_when_add -wave -disable
 gui_marker_set_ref -id ${Wave.1}  C1
-gui_wv_zoom_timerange -id ${Wave.1} 0 335000
-gui_list_add_group -id ${Wave.1} -after {New Group} {Group1}
-gui_list_select -id ${Wave.1} {combShifter_tb.mut.Op }
+gui_wv_zoom_timerange -id ${Wave.1} 0 375000
+gui_list_add_group -id ${Wave.1} -after {New Group} {combShifter_tb}
 gui_seek_criteria -id ${Wave.1} {Any Edge}
 
 
@@ -290,9 +289,9 @@ if { $groupExD } {
 }
 gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
 gui_list_set_filter -id ${Wave.1} -text {*}
-gui_list_set_insertion_bar  -id ${Wave.1} -group Group1  -item {combShifter_tb.mut.and_out_msb[0:4]} -position below
+gui_list_set_insertion_bar  -id ${Wave.1} -group combShifter_tb  -position in
 
-gui_marker_move -id ${Wave.1} {C1} 110000
+gui_marker_move -id ${Wave.1} {C1} 361399
 gui_view_scroll -id ${Wave.1} -vertical -set 0
 gui_show_grid -id ${Wave.1} -enable false
 # Restore toplevel window zorder

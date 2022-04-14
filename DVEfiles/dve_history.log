@@ -13,19 +13,19 @@ gui_set_state_value -category Layout -key child_console_dockstate -value undocke
 gui_set_state_value -category Layout -key child_console_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_console_pos_y -value {-15}
 gui_set_state_value -category Layout -key child_console_showstate -value maximized
-gui_set_state_value -category Layout -key child_console_size_x -value 1404
-gui_set_state_value -category Layout -key child_console_size_y -value 871
+gui_set_state_value -category Layout -key child_console_size_x -value 1252
+gui_set_state_value -category Layout -key child_console_size_y -value 720
 gui_set_state_value -category Layout -key child_data_coltype -value 74
 gui_set_state_value -category Layout -key child_data_colvalue -value 12
 gui_set_state_value -category Layout -key child_data_colvariable -value 170
-gui_set_state_value -category Layout -key child_data_size_x -value 258
-gui_set_state_value -category Layout -key child_data_size_y -value 877
+gui_set_state_value -category Layout -key child_data_size_x -value 254
+gui_set_state_value -category Layout -key child_data_size_y -value 726
 gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
-gui_set_state_value -category Layout -key child_hier_colhier -value 132
+gui_set_state_value -category Layout -key child_hier_colhier -value 222
 gui_set_state_value -category Layout -key child_hier_colpd -value 0
-gui_set_state_value -category Layout -key child_hier_coltype -value 10
-gui_set_state_value -category Layout -key child_hier_size_x -value 131
-gui_set_state_value -category Layout -key child_hier_size_y -value 877
+gui_set_state_value -category Layout -key child_hier_coltype -value 58
+gui_set_state_value -category Layout -key child_hier_size_x -value 286
+gui_set_state_value -category Layout -key child_hier_size_y -value 726
 gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
 gui_set_state_value -category Layout -key child_schematic_size_x -value 1482
@@ -33,21 +33,21 @@ gui_set_state_value -category Layout -key child_schematic_size_y -value 724
 gui_set_state_value -category Layout -key child_source_docknewline -value false
 gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
-gui_set_state_value -category Layout -key child_source_size_x -value 1405
-gui_set_state_value -category Layout -key child_source_size_y -value 872
-gui_set_state_value -category Layout -key child_wave_colname -value 287
+gui_set_state_value -category Layout -key child_source_size_x -value 1253
+gui_set_state_value -category Layout -key child_source_size_y -value 721
+gui_set_state_value -category Layout -key child_wave_colname -value 254
 gui_set_state_value -category Layout -key child_wave_colvalue -value 0
 gui_set_state_value -category Layout -key child_wave_docknewline -value false
-gui_set_state_value -category Layout -key child_wave_left -value 291
+gui_set_state_value -category Layout -key child_wave_left -value 258
 gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
-gui_set_state_value -category Layout -key child_wave_right -value 1104
-gui_set_state_value -category Layout -key child_wave_size_x -value 1405
-gui_set_state_value -category Layout -key child_wave_size_y -value 872
+gui_set_state_value -category Layout -key child_wave_right -value 985
+gui_set_state_value -category Layout -key child_wave_size_x -value 1253
+gui_set_state_value -category Layout -key child_wave_size_y -value 721
 gui_set_state_value -category Layout -key main_pos_x -value 0
 gui_set_state_value -category Layout -key main_pos_y -value 60
-gui_set_state_value -category Layout -key main_size_x -value 1791
-gui_set_state_value -category Layout -key main_size_y -value 1044
+gui_set_state_value -category Layout -key main_size_x -value 1790
+gui_set_state_value -category Layout -key main_size_y -value 893
 gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
 gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
 gui_set_state_value -category Layout -key stand_wave_child_size_x -value 853
@@ -77,57 +77,7 @@ gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
 gui_open_window Wave
 gui_list_add -id Wave.1 -from Source.1 { combShifter_tb } -insertionbar
 gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 374912
 gui_zoom -window Wave.1 -full
-gui_list_expand -id Hier.1   combShifter_tb
-gui_list_action -id  Hier.1 combShifter_tb
-gui_list_select -id Hier.1 -current_item_name combShifter_tb.mut -current_item_type Scope  -selected  { combShifter_tb.mut   }
-gui_list_action -id  Hier.1 combShifter_tb.mut
-gui_list_select -id Data.1 -selected  { {combShifter_tb.mut.and_out_msb[0:4]}   }
-gui_list_add -id Wave.1 -from Data.1 { {combShifter_tb.mut.and_out_msb[0:4]} } -insertionbar
-gui_sim_restart
-gui_sim_continue  
-gui_marker_move -id  Wave.1 C1 220866
-gui_zoom -window Wave.1 -full
-gui_marker_move -id  Wave.1 C1 110000
-gui_list_select -id Wave.1 -selected  { {combShifter_tb.mut.and_out_msb[0:4]}   }
-gui_list_expand -id  Wave.1   {combShifter_tb.mut.and_out_msb[0:4]}
-gui_sim_restart
-gui_list_action -id  Hier.1 combShifter_tb.mut
-gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 44 -fileIdFrom 0 -lto 29 -idxto 65 -fileIdTo 0 -selection {Ip[j-MAX_SHIFT_MAG+i]} -selectionId 0 -replace 0
-gui_sim_continue  
-gui_wv_zoom_timerange -id  Wave.1 167500 463633
-gui_marker_move -id  Wave.1 C1 268679
-gui_marker_move -id  Wave.1 C1 239991
-gui_zoom -window Wave.1 -full
-gui_list_select -id Wave.1 -selected  { {combShifter_tb.mut.and_out_msb[2]}   }
-gui_list_action -id  Wave.1 {combShifter_tb.mut.and_out_msb[2]}
-gui_get_drivers -id Wave.1 -signal {combShifter_tb.mut.and_out_msb[2]}
-gui_list_select -id DriverLoad.1 -selected  { {Sim:combShifter_tb.mut.and_out_msb[2] 115000 0}   }
-gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.0}   }
-gui_marker_move -id  Wave.1 C1 110000
-gui_list_select -id Wave.1 -selected  { {combShifter_tb.mut.and_out_msb[2]}   }
-gui_list_action -id  Wave.1 {combShifter_tb.mut.and_out_msb[2]}
-gui_get_drivers -id Wave.1 -signal {combShifter_tb.mut.and_out_msb[2]}
-gui_list_select -id Wave.1 -selected  {  }
-gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 1.0}   }
-gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.0}   }
-gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 1.0}   }
-gui_list_action -id  Data.1 {combShifter_tb.mut.and_out_msb[0:4]}
-gui_src_highlight_item -id Source.1 -lfrom 18 -idxfrom 30 -fileIdFrom 0 -lto 18 -idxto 41 -fileIdTo 0 -selection {and_out_msb} -selectionId 0 -replace 0
-gui_show_drivers -signal  {combShifter_tb.mut.and_out_msb[0:4]}
-gui_get_drivers -id Source.1 -signal {combShifter_tb.mut.and_out_msb[0:4]}
-gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.1}   }
-gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 0.0}   }
-gui_do_show_driver_load TopLevel.1
-gui_list_select -id DriverLoad.1 -selected  { {Sim:combShifter_tb.mut.and_out_msb[2] 110000 1}   }
-gui_do_show_driver_load TopLevel.1
-gui_list_select -id DriverLoad.1 -selected  { {combShifter.sv 29 1.0}   }
-gui_do_show_driver_load TopLevel.1
-gui_wv_zoom_timerange -id  Wave.1 0 335000
-gui_list_select -id Wave.1 -selected  { {combShifter_tb.shift_mag[0:4]}   }
-gui_zoom -window Wave.1 -full
-gui_zoom -window Wave.1 -full
-gui_marker_move -id  Wave.1 C1 115000
-gui_marker_move -id  Wave.1 C1 110000
 #gui_exit
 
