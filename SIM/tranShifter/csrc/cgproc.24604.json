@@ -1,0 +1,71 @@
+{
+    "reusePaths": {},
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "tranShifter_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "custom_tgate_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "F2sr3_d": {
+            "mod": "tranShifter_tb",
+            "bytes": 31796,
+            "out": "F2sr3_d.o",
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.0/_24604_archive_1.a"
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "bytes": 7460,
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "Tejmn_d": {
+            "mod": "custom_tgate_0000",
+            "bytes": 8368,
+            "out": "Tejmn_d.o",
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.0/_24604_archive_1.a"
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "bytes": 34979,
+            "out": "reYIK_d.o",
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.0/_24604_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_24604_archive_1.a",
+            "size": 75143,
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    34979
+                ],
+                [
+                    "F2sr3_d.o",
+                    31796
+                ],
+                [
+                    "Tejmn_d.o",
+                    8368
+                ]
+            ]
+        }
+    ]
+}

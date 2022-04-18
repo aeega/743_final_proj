@@ -37,13 +37,13 @@ BACK := /afs/andrew/course/18/743/backend
 combShifter-sim:
 	
 	if [ ! -d "$(SIM)" ]; then \
-        mkdir $(SIM) && mkdir $(SIM)/bitonic_sort;\
-		cd $(SIM)/bitonic_sort && vcs -sverilog -debug_all -full64 -top bitonic_sort_test $(SRC)/tb/bitonic_sort_test.sv $(SRC)/rtl/neuron_snl_grl.sv && ./simv;\
-	elif [ ! -d "$(SIM)/bitonic_sort" ]; then \
-        mkdir $(SIM)/bitonic_sort;\
-		cd $(SIM)/bitonic_sort && vcs -sverilog -debug_all -full64 -top bitonic_sort_test $(SRC)/tb/bitonic_sort_test.sv $(SRC)/rtl/neuron_snl_grl.sv && ./simv;\
+        mkdir $(SIM) && mkdir $(SIM)/combShifter;\
+		cd $(SIM)/combShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/combShifter_tb.sv $(SRC)/rtl/combShifter.sv && ./simv;\
+	elif [ ! -d "$(SIM)/combShifter" ]; then \
+        mkdir $(SIM)/combShifter;\
+		cd $(SIM)/combShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/combShifter_tb.sv $(SRC)/rtl/combShifter.sv && ./simv;\
 	else \
-		cd $(SIM)/bitonic_sort && vcs -sverilog -debug_all -full64 -top bitonic_sort_test $(SRC)/tb/bitonic_sort_test.sv $(SRC)/rtl/neuron_snl_grl.sv && ./simv;\
+		cd $(SIM)/combShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/combShifter_tb.sv $(SRC)/rtl/combShifter.sv && ./simv;\
 	fi;
 	
 
@@ -52,37 +52,37 @@ combShifter-wave:
 	
 	if [ ! -d "$(SIM)" ]; then \
         @echo "Perform simulation first";\
-	elif [ ! -d "$(SIM)/bitonic_sort" ]; then \
+	elif [ ! -d "$(SIM)/combShifter" ]; then \
         @echo "Perform simulation first";\
 	else \
-		cd $(SIM)/bitonic_sort && ./simv -gui;\
+		cd $(SIM)/combShifter && ./simv -gui;\
 	fi;
 	
 	
 
 .PHONY: tranShifter-sim
 tranShifter-sim:
-
+	
 	if [ ! -d "$(SIM)" ]; then \
-        mkdir $(SIM) && mkdir $(SIM)/synapse;\
-		cd $(SIM)/synapse && vcs -sverilog -debug_all -full64 -top synapse_tb $(SRC)/tb/synapse_tb.sv $(SRC)/rtl/neuron_rnl_ptt.sv && ./simv ; \
-	elif [ ! -d "$(SIM)/synapse" ]; then \
-        mkdir $(SIM)/synapse;\
-		cd $(SIM)/synapse && vcs -sverilog -debug_all -full64 -top synapse_tb $(SRC)/tb/synapse_tb.sv $(SRC)/rtl/neuron_rnl_ptt.sv && ./simv ; \
+        mkdir $(SIM) && mkdir $(SIM)/tranShifter;\
+		cd $(SIM)/tranShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/tranShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/tranShifter.sv && ./simv;\
+	elif [ ! -d "$(SIM)/tranShifter" ]; then \
+        mkdir $(SIM)/tranShifter;\
+		cd $(SIM)/tranShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/tranShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/tranShifter.sv && ./simv;\
 	else \
-		cd $(SIM)/synapse && vcs -sverilog -debug_all -full64 -top synapse_tb $(SRC)/tb/synapse_tb.sv $(SRC)/rtl/neuron_rnl_ptt.sv && ./simv ; \
-	fi; 
-
+		cd $(SIM)/tranShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/tranShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/tranShifter.sv && ./simv;\
+	fi;
 
 
 .PHONY: tranShifter-wave
 tranShifter-wave:
+	
 	if [ ! -d "$(SIM)" ]; then \
         @echo "Perform simulation first";\
-	elif [ ! -d "$(SIM)/synapse" ]; then \
+	elif [ ! -d "$(SIM)/tranShifter" ]; then \
         @echo "Perform simulation first";\
 	else \
-		cd $(SIM)/synapse && ./simv -gui;\
+		cd $(SIM)/tranShifter && ./simv -gui;\
 	fi;
 
 
