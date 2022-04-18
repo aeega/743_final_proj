@@ -1,11 +1,11 @@
 /*
 ====================================================================================================
-   Combinatory logic circuit based bi-directional shifter 
+   Transmission gate logic circuit based bi-directional shifter 
    Author:      Avinash Eega
-   Date:        03/30/2022
+   Date:        04/17/2022
    Description: A module acts as a base that is similar to mux logic with "n" inputs and outputs. 
                 Uses this module to construct a shifter with any number of inputs.
-                All the inputs and outputs are thermometer encoded
+                All the inputs and outputs are one-hot encoded
    Interpretation: 
                 For example, MAX_SHIFT_MAG=2, then the shifts possible are -2, -1, 0, +1, +2
                 shift_mag array would be a 2(2)+ 1 = 5 bit value.
@@ -34,15 +34,17 @@
 ====================================================================================================
 */
 
-module combShifter( Ip, Op, shift_mag);        
+module tranShifter( Ip, Op, shift_mag);        
     parameter LEN = 8;
     parameter MAX_SHIFT_MAG = 2;
-    parameter WRAP_AROUND = 0;
+    parameter WRAP_AROUND = 1;
 
     input bit [0:LEN-1] Ip; //The LEN-bit Input line 
     output bit [0:LEN-1] Op; //The LEN-bit Output line 
     input bit [0:(2*MAX_SHIFT_MAG)] shift_mag; //The shift magnitude Input line
-    logic [0:LEN-1][0:(2*MAX_SHIFT_MAG)]and_out_msb;
+    wire logic [0:LEN-1][0:(2*MAX_SHIFT_MAG)]and_out_msb;
+
+
     genvar i, j;
     
     generate
@@ -52,12 +54,19 @@ module combShifter( Ip, Op, shift_mag);
             for(i=0; i<(2*MAX_SHIFT_MAG+1); i=i+1) begin //{
                 // With wrap around 
                 if(WRAP_AROUND) begin 
-                    assign and_out_msb[j][i] =  ((j-MAX_SHIFT_MAG+i) < 0) ? (Ip[j-MAX_SHIFT_MAG+i+LEN] & shift_mag[i]): // NOOBs
-                                                ((j-MAX_SHIFT_MAG+i) >= LEN) ? (Ip[j-MAX_SHIFT_MAG+i-LEN] & shift_mag[i]): // POOBs
-                                                (Ip[j-MAX_SHIFT_MAG+i] & shift_mag[i]); // WIBs
+                    if((j-MAX_SHIFT_MAG+i) < 0) 
+                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i+LEN], shift_mag[i], ~shift_mag[i]);         
+                    else if((j-MAX_SHIFT_MAG+i) >= LEN) 
+                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i-LEN], shift_mag[i], ~shift_mag[i]);  
+                    else
+                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i], shift_mag[i], ~shift_mag[i]);  
+                 
                 // No wrap around 
                 end else begin
-                    assign and_out_msb[j][i] = ((j-MAX_SHIFT_MAG+i) >= 0) ? (Ip[j-MAX_SHIFT_MAG+i] & shift_mag[i]) : 1'b0;
+                   if((j-MAX_SHIFT_MAG+i) >= 0)
+                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i], shift_mag[i], ~shift_mag[i]);
+                   else
+                        cmos tgate(and_out_msb[j][i], 1'b0, shift_mag[i], ~shift_mag[i]);
                 end
             end //}
         
