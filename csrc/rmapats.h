@@ -1930,6 +1930,10 @@ static inline U asm_bsf (U in)
 #ifdef __cplusplus
 extern "C" {
 #endif
+void  hsM_4_0__simv_daidir (UB  * pcode, scalar  val);
+void  hsM_4_1__simv_daidir (UB  * pcode, scalar  val, U  I1030, scalar  * I1029);
+void  hsM_4_2__simv_daidir (UB  * pcode);
+void  hsM_5_0__simv_daidir (UB  * pcode, scalar  val);
 void  hsG_0 (struct dummyq_struct * I1016, EBLK  * I1017, U  I719);
 #ifdef __cplusplus
 }

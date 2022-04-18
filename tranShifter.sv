@@ -38,6 +38,7 @@ module tranShifter( Ip, Op, shift_mag);
     parameter LEN = 8;
     parameter MAX_SHIFT_MAG = 2;
     parameter WRAP_AROUND = 1;
+    parameter WITH_CMOS = 1;
 
     input bit [0:LEN-1] Ip; //The LEN-bit Input line 
     output bit [0:LEN-1] Op; //The LEN-bit Output line 
@@ -55,18 +56,18 @@ module tranShifter( Ip, Op, shift_mag);
                 // With wrap around 
                 if(WRAP_AROUND) begin 
                     if((j-MAX_SHIFT_MAG+i) < 0) 
-                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i+LEN], shift_mag[i], ~shift_mag[i]);         
+                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i+LEN]);         
                     else if((j-MAX_SHIFT_MAG+i) >= LEN) 
-                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i-LEN], shift_mag[i], ~shift_mag[i]);  
+                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i-LEN]);         
                     else
-                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i], shift_mag[i], ~shift_mag[i]);  
+                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
                  
                 // No wrap around 
                 end else begin
                    if((j-MAX_SHIFT_MAG+i) >= 0)
-                        cmos tgate(and_out_msb[j][i], Ip[j-MAX_SHIFT_MAG+i], shift_mag[i], ~shift_mag[i]);
+                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
                    else
-                        cmos tgate(and_out_msb[j][i], 1'b0, shift_mag[i], ~shift_mag[i]);
+                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], 1'b0);         
                 end
             end //}
         

@@ -1,2 +1,6 @@
-vcs -sverilog combShifter_tb.sv combShifter.sv
+vcs -sverilog combShifter_tb.sv combShifter.sv; ./simv
+./simv -gui
+
+
+vcs -sverilog tranShifter_tb.sv custom_tgate.sv tranShifter.sv; ./simv
 ./simv -gui

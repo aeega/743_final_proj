@@ -1,6 +1,6 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Mon Apr 18 14:34:58 2022
+# Saved on Mon Apr 18 15:41:44 2022
 # Designs open: 1
 #   Sim: /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/simv
 # Toplevel windows open: 1
@@ -114,18 +114,18 @@ gui_show_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 281]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 276]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 281
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 276
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 280} {height 792} {dock_state left} {dock_on_new_line true} {child_hier_colhier 222} {child_hier_coltype 58} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 249]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 275} {height 792} {dock_state left} {dock_on_new_line true} {child_hier_colhier 222} {child_hier_coltype 58} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 244]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 249
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 244
 gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 792
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 248} {height 792} {dock_state left} {dock_on_new_line true} {child_data_colvariable 170} {child_data_colvalue 12} {child_data_coltype 74} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 243} {height 792} {dock_state left} {dock_on_new_line true} {child_data_colvariable 170} {child_data_colvalue 12} {child_data_coltype 74} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -155,7 +155,7 @@ gui_show_window -window ${Source.1} -show_state maximized
 gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
 set Wave.1 [gui_create_window -type {Wave}  -parent ${TopLevel.1}]
 gui_show_window -window ${Wave.1} -show_state maximized
-gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 285} {child_wave_right 1099} {child_wave_colname 281} {child_wave_colvalue 0} {child_wave_col1 0} {child_wave_col2 1}}
+gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 285} {child_wave_right 1109} {child_wave_colname 281} {child_wave_colvalue 0} {child_wave_col1 0} {child_wave_col2 1}}
 
 # End MDI window settings
 
@@ -218,7 +218,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 374948
+gui_set_time -C1_only 375000
 
 
 
@@ -291,7 +291,7 @@ gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linka
 gui_list_set_filter -id ${Wave.1} -text {*}
 gui_list_set_insertion_bar  -id ${Wave.1} -group tranShifter_tb  -position in
 
-gui_marker_move -id ${Wave.1} {C1} 374948
+gui_marker_move -id ${Wave.1} {C1} 375000
 gui_view_scroll -id ${Wave.1} -vertical -set 0
 gui_show_grid -id ${Wave.1} -enable false
 # Restore toplevel window zorder

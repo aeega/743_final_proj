@@ -13,18 +13,18 @@ gui_set_state_value -category Layout -key child_console_dockstate -value undocke
 gui_set_state_value -category Layout -key child_console_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_console_pos_y -value {-15}
 gui_set_state_value -category Layout -key child_console_showstate -value maximized
-gui_set_state_value -category Layout -key child_console_size_x -value 1392
+gui_set_state_value -category Layout -key child_console_size_x -value 1402
 gui_set_state_value -category Layout -key child_console_size_y -value 787
 gui_set_state_value -category Layout -key child_data_coltype -value 74
 gui_set_state_value -category Layout -key child_data_colvalue -value 12
 gui_set_state_value -category Layout -key child_data_colvariable -value 170
-gui_set_state_value -category Layout -key child_data_size_x -value 249
+gui_set_state_value -category Layout -key child_data_size_x -value 244
 gui_set_state_value -category Layout -key child_data_size_y -value 792
 gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
 gui_set_state_value -category Layout -key child_hier_colhier -value 222
 gui_set_state_value -category Layout -key child_hier_colpd -value 0
 gui_set_state_value -category Layout -key child_hier_coltype -value 58
-gui_set_state_value -category Layout -key child_hier_size_x -value 281
+gui_set_state_value -category Layout -key child_hier_size_x -value 276
 gui_set_state_value -category Layout -key child_hier_size_y -value 792
 gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
@@ -33,7 +33,7 @@ gui_set_state_value -category Layout -key child_schematic_size_y -value 724
 gui_set_state_value -category Layout -key child_source_docknewline -value false
 gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
-gui_set_state_value -category Layout -key child_source_size_x -value 1392
+gui_set_state_value -category Layout -key child_source_size_x -value 1402
 gui_set_state_value -category Layout -key child_source_size_y -value 787
 gui_set_state_value -category Layout -key child_wave_colname -value 281
 gui_set_state_value -category Layout -key child_wave_colvalue -value 0
@@ -41,8 +41,8 @@ gui_set_state_value -category Layout -key child_wave_docknewline -value false
 gui_set_state_value -category Layout -key child_wave_left -value 285
 gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
 gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
-gui_set_state_value -category Layout -key child_wave_right -value 1097
-gui_set_state_value -category Layout -key child_wave_size_x -value 1392
+gui_set_state_value -category Layout -key child_wave_right -value 1107
+gui_set_state_value -category Layout -key child_wave_size_x -value 1402
 gui_set_state_value -category Layout -key child_wave_size_y -value 787
 gui_set_state_value -category Layout -key main_pos_x -value 0
 gui_set_state_value -category Layout -key main_pos_y -value 60
@@ -77,7 +77,6 @@ gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
 gui_open_window Wave
 gui_list_add -id Wave.1 -from Source.1 { tranShifter_tb } -insertionbar
 gui_sim_continue  
-gui_marker_move -id  Wave.1 C1 374948
 gui_zoom -window Wave.1 -full
 #gui_exit
 

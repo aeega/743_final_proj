@@ -1,14 +1,14 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Mon Apr 18 14:33:30 2022
+# Saved on Mon Apr 18 14:49:40 2022
 # Designs open: 1
 #   Sim: /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/simv
 # Toplevel windows open: 1
 # 	TopLevel.1
-#   Source.1: tranShifter_tb
-#   Wave.1: 4 signals
+#   Wave.1: 6 signals
+#   Source.1: tranShifter_tb.mut
 #   Group count = 1
-#   Group tranShifter_tb signal count = 4
+#   Group tranShifter_tb signal count = 6
 # End_DVE_Session_Save_Info
 
 # DVE version: K-2015.09_Full64
@@ -114,18 +114,18 @@ gui_show_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 282]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 278]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 282
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 278
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 281} {height 792} {dock_state left} {dock_on_new_line true} {child_hier_colhier 222} {child_hier_coltype 58} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 250]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 277} {height 792} {dock_state left} {dock_on_new_line true} {child_hier_colhier 222} {child_hier_coltype 58} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 246]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 250
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 246
 gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 792
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 249} {height 792} {dock_state left} {dock_on_new_line true} {child_data_colvariable 170} {child_data_colvalue 12} {child_data_coltype 74} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 245} {height 792} {dock_state left} {dock_on_new_line true} {child_data_colvariable 170} {child_data_colvalue 12} {child_data_coltype 74} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -155,7 +155,7 @@ gui_show_window -window ${Source.1} -show_state maximized
 gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
 set Wave.1 [gui_create_window -type {Wave}  -parent ${TopLevel.1}]
 gui_show_window -window ${Wave.1} -show_state maximized
-gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 285} {child_wave_right 1097} {child_wave_colname 281} {child_wave_colvalue 0} {child_wave_col1 0} {child_wave_col2 1}}
+gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 285} {child_wave_right 1105} {child_wave_colname 281} {child_wave_colvalue 0} {child_wave_col1 0} {child_wave_col2 1}}
 
 # End MDI window settings
 
@@ -175,11 +175,11 @@ gui_update_statusbar_target_frame ${TopLevel.1}
 # DVE Open design session: 
 
 if { [llength [lindex [gui_get_db -design Sim] 0]] == 0 } {
-gui_set_env SIMSETUP::SIMARGS {{-ucligui }}
-gui_set_env SIMSETUP::SIMEXE {/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/simv}
+gui_set_env SIMSETUP::SIMARGS {{}}
+gui_set_env SIMSETUP::SIMEXE {./simv}
 gui_set_env SIMSETUP::ALLOW_POLL {0}
 if { ![gui_is_db_opened -db {/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/simv}] } {
-gui_sim_run Ucli -exe simv -args {-ucligui } -dir /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj -nosource
+gui_sim_run Ucli -exe simv -args { -ucligui} -dir /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj -nosource
 }
 }
 if { ![gui_sim_state -check active] } {error "Simulator did not start correctly" error}
@@ -204,13 +204,17 @@ gui_set_time_units 1ps
 gui_load_child_values {tranShifter_tb}
 
 
-set _session_group_2 tranShifter_tb
-gui_sg_create "$_session_group_2"
-set tranShifter_tb "$_session_group_2"
+set _session_group_1 tranShifter_tb
+gui_sg_create "$_session_group_1"
+set tranShifter_tb "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_2" { tranShifter_tb.Ip tranShifter_tb.shift_mag tranShifter_tb.Op tranShifter_tb.mut.WRAP_AROUND }
+gui_sg_addsignal -group "$_session_group_1" { tranShifter_tb.Ip tranShifter_tb.shift_mag tranShifter_tb.Op tranShifter_tb.mut.MAX_SHIFT_MAG tranShifter_tb.mut.WRAP_AROUND tranShifter_tb.mut.WITH_CMOS }
+gui_set_radix -radix {decimal} -signals {Sim:tranShifter_tb.mut.MAX_SHIFT_MAG}
+gui_set_radix -radix {twosComplement} -signals {Sim:tranShifter_tb.mut.MAX_SHIFT_MAG}
 gui_set_radix -radix {decimal} -signals {Sim:tranShifter_tb.mut.WRAP_AROUND}
 gui_set_radix -radix {twosComplement} -signals {Sim:tranShifter_tb.mut.WRAP_AROUND}
+gui_set_radix -radix {decimal} -signals {Sim:tranShifter_tb.mut.WITH_CMOS}
+gui_set_radix -radix {twosComplement} -signals {Sim:tranShifter_tb.mut.WITH_CMOS}
 
 # Global: Highlighting
 
@@ -220,7 +224,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 266017
+gui_set_time -C1_only 374901
 
 
 
@@ -255,7 +259,7 @@ gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linka
 gui_list_set_filter -id ${Data.1} -text {*}
 gui_list_show_data -id ${Data.1} {tranShifter_tb.mut}
 gui_show_window -window ${Data.1}
-catch { gui_list_select -id ${Data.1} {tranShifter_tb.mut.WRAP_AROUND }}
+catch { gui_list_select -id ${Data.1} {tranShifter_tb.mut.MAX_SHIFT_MAG tranShifter_tb.mut.WRAP_AROUND tranShifter_tb.mut.WITH_CMOS }}
 gui_view_scroll -id ${Data.1} -vertical -set 0
 gui_view_scroll -id ${Data.1} -horizontal -set 0
 gui_view_scroll -id ${Hier.1} -vertical -set 0
@@ -264,8 +268,8 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 # Source 'Source.1'
 gui_src_value_annotate -id ${Source.1} -switch false
 gui_set_env TOGGLE::VALUEANNOTATE 0
-gui_open_source -id ${Source.1}  -replace -active tranShifter_tb /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/tranShifter_tb.sv
-gui_view_scroll -id ${Source.1} -vertical -set 112
+gui_open_source -id ${Source.1}  -replace -active tranShifter_tb.mut /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/tranShifter.sv
+gui_view_scroll -id ${Source.1} -vertical -set 0
 gui_src_set_reusable -id ${Source.1}
 
 # View 'Wave.1'
@@ -279,7 +283,6 @@ gui_list_create_group_when_add -wave -disable
 gui_marker_set_ref -id ${Wave.1}  C1
 gui_wv_zoom_timerange -id ${Wave.1} 0 375000
 gui_list_add_group -id ${Wave.1} -after {New Group} {tranShifter_tb}
-gui_list_select -id ${Wave.1} {tranShifter_tb.mut.WRAP_AROUND }
 gui_seek_criteria -id ${Wave.1} {Any Edge}
 
 
@@ -297,14 +300,14 @@ gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linka
 gui_list_set_filter -id ${Wave.1} -text {*}
 gui_list_set_insertion_bar  -id ${Wave.1} -group tranShifter_tb  -position in
 
-gui_marker_move -id ${Wave.1} {C1} 266017
+gui_marker_move -id ${Wave.1} {C1} 374901
 gui_view_scroll -id ${Wave.1} -vertical -set 0
 gui_show_grid -id ${Wave.1} -enable false
 # Restore toplevel window zorder
 # The toplevel window could be closed if it has no view/pane
 if {[gui_exist_window -window ${TopLevel.1}]} {
 	gui_set_active_window -window ${TopLevel.1}
-	gui_set_active_window -window ${Wave.1}
+	gui_set_active_window -window ${Source.1}
 }
 #</Session>
 
