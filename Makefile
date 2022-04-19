@@ -16,12 +16,18 @@ help:
 	@echo " make [args.] "
 	@echo ""
 	@echo " Arguments: "
-	@echo "   combShifter-sim:  	RTL sim. of combinational logic based shifter"
+	@echo "   combShifter-sim:  	RTL simulation of combinational logic based shifter"
 	@echo "   combShifter-wave:  	Waveform gui of combinational logic based shifter"
-	@echo "   tranShifter-sim:  	RTL sim. of transmission gate logic based shifter"
-	@echo "   tranShifter-wave:  	Waveform gui of transmission gate logic based shifter"
 	@echo "   combShifter-synth: 	Synthesis run for combinational logic based shifter"
+	@echo "   tranShifter-sim:  	RTL simulation of transmission gate logic based shifter"
+	@echo "   tranShifter-wave:  	Waveform gui of transmission gate logic based shifter"
 	@echo "   tranShifter-synth: 	Synthesis run for transmission gate logic based shifter"
+	@echo "   barrelShifter-sim:  	RTL simulation of barrel shifter"
+	@echo "   barrelShifter-wave:  	Waveform gui of barrel shifter"
+	@echo "   barrelShifter-synth: 	Synthesis run for barrel shifter"
+	@echo "   regShifter-sim:  		RTL simulation of reg shifter"
+	@echo "   regShifter-wave:  	Waveform gui of reg shifter"
+	@echo "   regShifter-synth: 	Synthesis run for reg shifter"
 	@echo ""
 	@echo " "
 
@@ -83,6 +89,57 @@ tranShifter-wave:
 		cd $(SIM)/tranShifter && ./simv -gui;\
 	fi;
 
+.PHONY: barrelShifter-sim
+barrelShifter-sim:
+	
+	if [ ! -d "$(SIM)" ]; then \
+        mkdir $(SIM) && mkdir $(SIM)/barrelShifter;\
+		cd $(SIM)/barrelShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/barrelShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/barrelShifter.sv && ./simv;\
+	elif [ ! -d "$(SIM)/barrelShifter" ]; then \
+        mkdir $(SIM)/barrelShifter;\
+		cd $(SIM)/barrelShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/barrelShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/barrelShifter.sv && ./simv;\
+	else \
+		cd $(SIM)/barrelShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/barrelShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/barrelShifter.sv && ./simv;\
+	fi;
+
+
+.PHONY: barrelShifter-wave
+barrelShifter-wave:
+	
+	if [ ! -d "$(SIM)" ]; then \
+        @echo "Perform simulation first";\
+	elif [ ! -d "$(SIM)/barrelShifter" ]; then \
+        @echo "Perform simulation first";\
+	else \
+		cd $(SIM)/barrelShifter && ./simv -gui;\
+	fi;
+
+.PHONY: regShifter-sim
+regShifter-sim:
+	
+	if [ ! -d "$(SIM)" ]; then \
+        mkdir $(SIM) && mkdir $(SIM)/regShifter;\
+		cd $(SIM)/regShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/regShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/regShifter.sv && ./simv;\
+	elif [ ! -d "$(SIM)/regShifter" ]; then \
+        mkdir $(SIM)/regShifter;\
+		cd $(SIM)/regShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/regShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/regShifter.sv && ./simv;\
+	else \
+		cd $(SIM)/regShifter && vcs -sverilog -debug_all -full64 $(SRC)/tb/regShifter_tb.sv $(SRC)/rtl/custom_tgate.sv $(SRC)/rtl/regShifter.sv && ./simv;\
+	fi;
+
+
+.PHONY: regShifter-wave
+regShifter-wave:
+	
+	if [ ! -d "$(SIM)" ]; then \
+        @echo "Perform simulation first";\
+	elif [ ! -d "$(SIM)/regShifter" ]; then \
+        @echo "Perform simulation first";\
+	else \
+		cd $(SIM)/regShifter && ./simv -gui;\
+	fi;
+
+# S Y N T H E S I S
 
 .PHONY: combShifter-synth
 combShifter-synth:
@@ -108,7 +165,31 @@ tranShifter-synth:
 	else \
 		cd $(SYNTH)/tranShifter && dc_shell -f $(CURDIR)/tcl/synth_tranShifter.tcl;\
 	fi;		
+
+.PHONY: barrelShifter-synth
+barrelShifter-synth:
+	if [ ! -d "$(SYNTH)" ]; then \
+		mkdir $(SYNTH) && mkdir $(SYNTH)/barrelShifter;\
+		cd $(SYNTH)/barrelShifter && dc_shell -f $(CURDIR)/tcl/synth_barrelShifter.tcl;\
+	elif [ ! -d "$(SYNTH)/barrelShifter" ]; then \
+		mkdir $(SYNTH)/barrelShifter;\
+		cd $(SYNTH)/barrelShifter && dc_shell -f $(CURDIR)/tcl/synth_barrelShifter.tcl;\
+	else \
+		cd $(SYNTH)/barrelShifter && dc_shell -f $(CURDIR)/tcl/synth_barrelShifter.tcl;\
+	fi;	
 	
+.PHONY: regShifter-synth
+regShifter-synth:
+	if [ ! -d "$(SYNTH)" ]; then \
+		mkdir $(SYNTH) && mkdir $(SYNTH)/regShifter;\
+		cd $(SYNTH)/regShifter && dc_shell -f $(CURDIR)/tcl/synth_regShifter.tcl;\
+	elif [ ! -d "$(SYNTH)/regShifter" ]; then \
+		mkdir $(SYNTH)/regShifter;\
+		cd $(SYNTH)/regShifter && dc_shell -f $(CURDIR)/tcl/synth_regShifter.tcl;\
+	else \
+		cd $(SYNTH)/regShifter && dc_shell -f $(CURDIR)/tcl/synth_regShifter.tcl;\
+	fi;		
+
 
 .PHONY: cleanall
 cleanall:
