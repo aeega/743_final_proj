@@ -1,0 +1,245 @@
+(DELAYFILE
+(SDFVERSION "OVI 1.0")
+(DESIGN "tranShifter")
+(DATE "Tue Apr 19 01:47:38 2022")
+(VENDOR "NangateOpenCellLibrary")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "P-2019.03")
+(DIVIDER /)
+(VOLTAGE 1.10:1.10:1.10)
+(PROCESS)
+(TEMPERATURE 25.00:25.00:25.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "tranShifter")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT genblk1_0__genblk1_4__genblk1_genblk1_tgate/p1 U32/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_0__genblk1_3__genblk1_genblk1_tgate/p1 U32/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_0__genblk1_2__genblk1_genblk1_tgate/p1 U32/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_0__genblk1_1__genblk1_genblk1_tgate/p1 U31/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_0__genblk1_0__genblk1_genblk1_tgate/p1 U31/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U32/ZN U31/A3 (0.008:0.008:0.008))
+    (INTERCONNECT genblk1_1__genblk1_4__genblk1_genblk1_tgate/p1 U30/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_1__genblk1_3__genblk1_genblk1_tgate/p1 U30/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_1__genblk1_2__genblk1_genblk1_tgate/p1 U30/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_1__genblk1_1__genblk1_genblk1_tgate/p1 U29/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_1__genblk1_0__genblk1_genblk1_tgate/p1 U29/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U30/ZN U29/A3 (0.008:0.008:0.008))
+    (INTERCONNECT genblk1_2__genblk1_4__genblk1_genblk1_tgate/p1 U28/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_2__genblk1_3__genblk1_genblk1_tgate/p1 U28/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_2__genblk1_2__genblk1_genblk1_tgate/p1 U28/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_2__genblk1_1__genblk1_genblk1_tgate/p1 U27/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_2__genblk1_0__genblk1_genblk1_tgate/p1 U27/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U28/ZN U27/A3 (0.008:0.008:0.008))
+    (INTERCONNECT genblk1_3__genblk1_4__genblk1_genblk1_tgate/p1 U26/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_3__genblk1_3__genblk1_genblk1_tgate/p1 U26/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_3__genblk1_2__genblk1_genblk1_tgate/p1 U26/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_3__genblk1_1__genblk1_genblk1_tgate/p1 U25/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_3__genblk1_0__genblk1_genblk1_tgate/p1 U25/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U26/ZN U25/A3 (0.008:0.008:0.008))
+    (INTERCONNECT genblk1_4__genblk1_4__genblk1_genblk1_tgate/p1 U24/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_4__genblk1_3__genblk1_genblk1_tgate/p1 U24/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_4__genblk1_2__genblk1_genblk1_tgate/p1 U24/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_4__genblk1_1__genblk1_genblk1_tgate/p1 U23/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_4__genblk1_0__genblk1_genblk1_tgate/p1 U23/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U24/ZN U23/A3 (0.008:0.008:0.008))
+    (INTERCONNECT genblk1_5__genblk1_4__genblk1_genblk1_tgate/p1 U22/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_5__genblk1_3__genblk1_genblk1_tgate/p1 U22/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_5__genblk1_2__genblk1_genblk1_tgate/p1 U22/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_5__genblk1_1__genblk1_genblk1_tgate/p1 U21/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_5__genblk1_0__genblk1_genblk1_tgate/p1 U21/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U22/ZN U21/A3 (0.008:0.008:0.008))
+    (INTERCONNECT genblk1_6__genblk1_4__genblk1_genblk1_tgate/p1 U20/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_6__genblk1_3__genblk1_genblk1_tgate/p1 U20/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_6__genblk1_2__genblk1_genblk1_tgate/p1 U20/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_6__genblk1_1__genblk1_genblk1_tgate/p1 U19/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_6__genblk1_0__genblk1_genblk1_tgate/p1 U19/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U20/ZN U19/A3 (0.008:0.008:0.008))
+    (INTERCONNECT genblk1_7__genblk1_4__genblk1_genblk1_tgate/p1 U18/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_7__genblk1_3__genblk1_genblk1_tgate/p1 U18/A2 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_7__genblk1_2__genblk1_genblk1_tgate/p1 U18/A3 (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_7__genblk1_1__genblk1_genblk1_tgate/p1 U17/A1 (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT genblk1_7__genblk1_0__genblk1_genblk1_tgate/p1 U17/A2 (0.003:0.003:0.003))
+    (INTERCONNECT U18/ZN U17/A3 (0.008:0.008:0.008))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U32)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U31)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U30)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U29)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U28)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U27)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U26)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U25)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U24)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U23)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U22)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U21)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U20)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U19)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U18)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.019:0.019:0.019) (0.061:0.061:0.061))
+    (IOPATH A2 ZN (0.020:0.020:0.020) (0.072:0.072:0.072))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.075:0.075:0.075))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR3_X1")
+  (INSTANCE U17)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.016:0.016:0.016) (0.058:0.058:0.058))
+    (IOPATH A2 ZN (0.018:0.018:0.018) (0.069:0.069:0.069))
+    (IOPATH A3 ZN (0.021:0.021:0.021) (0.077:0.077:0.077))
+    )
+  )
+)
+)

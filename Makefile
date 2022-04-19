@@ -16,14 +16,12 @@ help:
 	@echo " make [args.] "
 	@echo ""
 	@echo " Arguments: "
-	@echo "   combShifter-sim:  RTL sim. of combinational logic based shifter"
-	@echo "   combShifter-wave:  waveform gui of combinational logic based shifter"
-	@echo "   tranShifter-sim:  RTL sim. of transmission gate logic based shifter"
-	@echo "   tranShifter-wave:  waveform gui of transmission gate logic based shifter"
-	@echo "   pulse_gen-sim: RTL sim. of RNL neuron "
-	@echo "   pulse_gen-wave: waveform gui of RNL neuron "
-	@echo "   combShifter-synth: synthesis run for combinational logic based shifter"
-	@echo "   tranShifter-synth: synthesis run for transmission gate logic based shifter"
+	@echo "   combShifter-sim:  	RTL sim. of combinational logic based shifter"
+	@echo "   combShifter-wave:  	Waveform gui of combinational logic based shifter"
+	@echo "   tranShifter-sim:  	RTL sim. of transmission gate logic based shifter"
+	@echo "   tranShifter-wave:  	Waveform gui of transmission gate logic based shifter"
+	@echo "   combShifter-synth: 	Synthesis run for combinational logic based shifter"
+	@echo "   tranShifter-synth: 	Synthesis run for transmission gate logic based shifter"
 	@echo ""
 	@echo " "
 
@@ -87,31 +85,29 @@ tranShifter-wave:
 
 
 .PHONY: combShifter-synth
-snl-synth:
+combShifter-synth:
 	
 	if [ ! -d "$(SYNTH)" ]; then \
-		mkdir $(SYNTH) && mkdir $(SYNTH)/snl_neuron;\
-		cd $(SYNTH)/snl_neuron && dc_shell -f $(CURDIR)/tcl/synth_snl.tcl;\
-	elif [ ! -d "$(SYNTH)/snl_neuron" ]; then \
-		mkdir $(SYNTH)/snl_neuron;\
-		cd $(SYNTH)/snl_neuron && dc_shell -f $(CURDIR)/tcl/synth_snl.tcl;\
+		mkdir $(SYNTH) && mkdir $(SYNTH)/combShifter;\
+		cd $(SYNTH)/combShifter && dc_shell -f $(CURDIR)/tcl/synth_combShifter.tcl;\
+	elif [ ! -d "$(SYNTH)/combShifter" ]; then \
+		mkdir $(SYNTH)/combShifter;\
+		cd $(SYNTH)/combShifter && dc_shell -f $(CURDIR)/tcl/synth_combShifter.tcl;\
 	else \
-		cd $(SYNTH)/snl_neuron && dc_shell -f $(CURDIR)/tcl/synth_snl.tcl;\
+		cd $(SYNTH)/combShifter && dc_shell -f $(CURDIR)/tcl/synth_combShifter.tcl;\
 	fi;
 	
 .PHONY: tranShifter-synth
-rnl-synth:
-		
+tranShifter-synth:
 	if [ ! -d "$(SYNTH)" ]; then \
-		mkdir $(SYNTH) && mkdir $(SYNTH)/rnl_neuron;\
-		cd $(SYNTH)/rnl_neuron && dc_shell -f $(CURDIR)/tcl/synth_rnl.tcl;\
-	elif [ ! -d "$(SYNTH)/rnl_neuron" ]; then \
-		mkdir $(SYNTH)/rnl_neuron;\
-		cd $(SYNTH)/rnl_neuron && dc_shell -f $(CURDIR)/tcl/synth_rnl.tcl;\
+		mkdir $(SYNTH) && mkdir $(SYNTH)/tranShifter;\
+		cd $(SYNTH)/tranShifter && dc_shell -f $(CURDIR)/tcl/synth_tranShifter.tcl;\
+	elif [ ! -d "$(SYNTH)/tranShifter" ]; then \
+		mkdir $(SYNTH)/tranShifter;\
+		cd $(SYNTH)/tranShifter && dc_shell -f $(CURDIR)/tcl/synth_tranShifter.tcl;\
 	else \
-		cd $(SYNTH)/rnl_neuron && dc_shell -f $(CURDIR)/tcl/synth_rnl.tcl;\
-	fi;
-
+		cd $(SYNTH)/tranShifter && dc_shell -f $(CURDIR)/tcl/synth_tranShifter.tcl;\
+	fi;		
 	
 
 .PHONY: cleanall

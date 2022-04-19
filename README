@@ -1,6 +1,14 @@
-vcs -sverilog combShifter_tb.sv combShifter.sv; ./simv
-./simv -gui
+********************
+  C O M M A N D S 
+********************
+ make [args.] 
 
+ Arguments: 
+   combShifter-sim:  	RTL simulation of combinational logic based shifter
+   combShifter-wave:  	Waveform gui of combinational logic based shifter
+   combShifter-synth: 	Synthesis run for combinational logic based shifter
+   
+   tranShifter-sim:  	RTL simulation of transmission gate logic based shifter
+   tranShifter-wave:  	Waveform gui of transmission gate logic based shifter
+   tranShifter-synth: 	Synthesis run for transmission gate logic based shifter
 
-vcs -sverilog tranShifter_tb.sv custom_tgate.sv tranShifter.sv; ./simv
-./simv -gui
