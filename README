@@ -12,10 +12,20 @@
    tranShifter-wave:  	Waveform gui of transmission gate logic based shifter
    tranShifter-synth: 	Synthesis run for transmission gate logic based shifter
 
+   barrelShifter-sim:  	RTL simulation of barrel shifter
+   barrelShifter-wave:  Waveform gui of barrel shifter
+   barrelShifter-synth: Synthesis run for barrel shifter
+
+   regShifter-sim:  	RTL simulation of reg shifter
+   regShifter-wave:  	Waveform gui of reg shifter
+   regShifter-synth: 	Synthesis run for reg shifter
+
+
+
 *******************
 To get PPA results
 *******************
 
-    sh get_ppa_results.sh MAX_LEN={number}
-    Example: sh get_ppa_results.sh MAX_LEN=5
+    sh get_ppa_results.sh {number} {shifter_module_name}
+    Example: sh get_ppa_results.sh 5 combShifter
 

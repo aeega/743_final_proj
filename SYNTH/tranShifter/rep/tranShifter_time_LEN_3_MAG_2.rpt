@@ -1,0 +1,635 @@
+Warning: Design 'tranShifter' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 100
+Design : tranShifter
+Version: P-2019.03
+Date   : Tue Apr 19 15:20:16 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: genblk1_0__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U12/ZN (OR3_X1)                                         0.08       0.08 f
+  U11/ZN (OR3_X1)                                         0.08       0.16 f
+  Op[0] (out)                                             0.00       0.16 f
+  data arrival time                                                  0.16
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U10/ZN (OR3_X1)                                         0.08       0.08 f
+  U9/ZN (OR3_X1)                                          0.08       0.16 f
+  Op[1] (out)                                             0.00       0.16 f
+  data arrival time                                                  0.16
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U8/ZN (OR3_X1)                                          0.08       0.08 f
+  U7/ZN (OR3_X1)                                          0.08       0.16 f
+  Op[2] (out)                                             0.00       0.16 f
+  data arrival time                                                  0.16
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U12/ZN (OR3_X1)                                         0.08       0.08 f
+  U11/ZN (OR3_X1)                                         0.08       0.16 f
+  Op[0] (out)                                             0.00       0.16 f
+  data arrival time                                                  0.16
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U10/ZN (OR3_X1)                                         0.08       0.08 f
+  U9/ZN (OR3_X1)                                          0.08       0.16 f
+  Op[1] (out)                                             0.00       0.16 f
+  data arrival time                                                  0.16
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U8/ZN (OR3_X1)                                          0.08       0.08 f
+  U7/ZN (OR3_X1)                                          0.08       0.16 f
+  Op[2] (out)                                             0.00       0.16 f
+  data arrival time                                                  0.16
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U12/ZN (OR3_X1)                                         0.06       0.06 f
+  U11/ZN (OR3_X1)                                         0.08       0.15 f
+  Op[0] (out)                                             0.00       0.15 f
+  data arrival time                                                  0.15
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U10/ZN (OR3_X1)                                         0.06       0.06 f
+  U9/ZN (OR3_X1)                                          0.08       0.15 f
+  Op[1] (out)                                             0.00       0.15 f
+  data arrival time                                                  0.15
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U8/ZN (OR3_X1)                                          0.06       0.06 f
+  U7/ZN (OR3_X1)                                          0.08       0.15 f
+  Op[2] (out)                                             0.00       0.15 f
+  data arrival time                                                  0.15
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U11/ZN (OR3_X1)                                         0.07       0.07 f
+  Op[0] (out)                                             0.00       0.07 f
+  data arrival time                                                  0.07
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U9/ZN (OR3_X1)                                          0.07       0.07 f
+  Op[1] (out)                                             0.00       0.07 f
+  data arrival time                                                  0.07
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U7/ZN (OR3_X1)                                          0.07       0.07 f
+  Op[2] (out)                                             0.00       0.07 f
+  data arrival time                                                  0.07
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U11/ZN (OR3_X1)                                         0.06       0.06 f
+  Op[0] (out)                                             0.00       0.06 f
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U9/ZN (OR3_X1)                                          0.06       0.06 f
+  Op[1] (out)                                             0.00       0.06 f
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 f
+  U7/ZN (OR3_X1)                                          0.06       0.06 f
+  Op[2] (out)                                             0.00       0.06 f
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U12/ZN (OR3_X1)                                         0.02       0.02 r
+  U11/ZN (OR3_X1)                                         0.03       0.05 r
+  Op[0] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U10/ZN (OR3_X1)                                         0.02       0.02 r
+  U9/ZN (OR3_X1)                                          0.03       0.05 r
+  Op[1] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_2__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U8/ZN (OR3_X1)                                          0.02       0.02 r
+  U7/ZN (OR3_X1)                                          0.03       0.05 r
+  Op[2] (out)                                             0.00       0.06 r
+  data arrival time                                                  0.06
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U12/ZN (OR3_X1)                                         0.02       0.02 r
+  U11/ZN (OR3_X1)                                         0.03       0.05 r
+  Op[0] (out)                                             0.00       0.05 r
+  data arrival time                                                  0.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U10/ZN (OR3_X1)                                         0.02       0.02 r
+  U9/ZN (OR3_X1)                                          0.03       0.05 r
+  Op[1] (out)                                             0.00       0.05 r
+  data arrival time                                                  0.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_3__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U8/ZN (OR3_X1)                                          0.02       0.02 r
+  U7/ZN (OR3_X1)                                          0.03       0.05 r
+  Op[2] (out)                                             0.00       0.05 r
+  data arrival time                                                  0.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U12/ZN (OR3_X1)                                         0.02       0.02 r
+  U11/ZN (OR3_X1)                                         0.03       0.05 r
+  Op[0] (out)                                             0.00       0.05 r
+  data arrival time                                                  0.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U10/ZN (OR3_X1)                                         0.02       0.02 r
+  U9/ZN (OR3_X1)                                          0.03       0.05 r
+  Op[1] (out)                                             0.00       0.05 r
+  data arrival time                                                  0.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_4__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U8/ZN (OR3_X1)                                          0.02       0.02 r
+  U7/ZN (OR3_X1)                                          0.03       0.05 r
+  Op[2] (out)                                             0.00       0.05 r
+  data arrival time                                                  0.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U11/ZN (OR3_X1)                                         0.02       0.02 r
+  Op[0] (out)                                             0.00       0.02 r
+  data arrival time                                                  0.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U9/ZN (OR3_X1)                                          0.02       0.02 r
+  Op[1] (out)                                             0.00       0.02 r
+  data arrival time                                                  0.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_0__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U7/ZN (OR3_X1)                                          0.02       0.02 r
+  Op[2] (out)                                             0.00       0.02 r
+  data arrival time                                                  0.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_0__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_0__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U11/ZN (OR3_X1)                                         0.02       0.02 r
+  Op[0] (out)                                             0.00       0.02 r
+  data arrival time                                                  0.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_1__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_1__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U9/ZN (OR3_X1)                                          0.02       0.02 r
+  Op[1] (out)                                             0.00       0.02 r
+  data arrival time                                                  0.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_2__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tranShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_2__genblk1_1__genblk1_genblk1_genblk1_tgate/p1 (custom_tgate)
+                                                          0.00       0.00 r
+  U7/ZN (OR3_X1)                                          0.02       0.02 r
+  Op[2] (out)                                             0.00       0.02 r
+  data arrival time                                                  0.02
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

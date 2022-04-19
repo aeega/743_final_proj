@@ -125,20 +125,23 @@ Warning: Design 'tranShifter' has '1' unresolved references. For more detailed i
 ****************************************
 check_design summary:
 Version:     P-2019.03
-Date:        Tue Apr 19 04:45:00 2022
+Date:        Tue Apr 19 15:20:15 2022
 ****************************************
 
                    Name                                            Total
 --------------------------------------------------------------------------------
-Inputs/Outputs                                                      5
-    Multiply driven inputs (LINT-6)                                 5
+Inputs/Outputs                                                      8
+    Multiply driven inputs (LINT-6)                                 8
 --------------------------------------------------------------------------------
 
 Warning: In design 'tranShifter', input port 'Ip[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
 Warning: In design 'tranShifter', input port 'Ip[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'tranShifter', input port 'Ip[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
 Warning: In design 'tranShifter', input port 'shift_mag[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
 Warning: In design 'tranShifter', input port 'shift_mag[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
 Warning: In design 'tranShifter', input port 'shift_mag[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'tranShifter', input port 'shift_mag[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'tranShifter', input port 'shift_mag[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
 1
 compile -map_effort low
 Warning: Design 'tranShifter' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
@@ -153,7 +156,7 @@ Information: Evaluating DesignWare library utilization. (UISN-27)
 ============================================================================
 
 
-Information: There are 5 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+Information: There are 8 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
 
 
 
@@ -180,9 +183,9 @@ Information: Design 'tranShifter' has no optimization constraints set. (OPT-108)
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
 
 
   Beginning Area-Recovery Phase  (cleanup)
@@ -192,17 +195,17 @@ Information: Design 'tranShifter' has no optimization constraints set. (OPT-108)
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
-    0:00:00       2.7      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
+    0:00:00       8.0      0.00       0.0       0.0                          
 Loading db file '/afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db'
 
 

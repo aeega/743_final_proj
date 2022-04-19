@@ -38,12 +38,14 @@ module tranShifter( Ip, Op, shift_mag);
     parameter LEN = 1;
     parameter MAX_SHIFT_MAG = 0;
     parameter WRAP_AROUND = 1;
+    parameter WITH_OUT_OR = 1;
     parameter WITH_CMOS = 1;
 
     input bit [0:LEN-1] Ip; //The LEN-bit Input line 
     output bit [0:LEN-1] Op; //The LEN-bit Output line 
     input bit [0:(2*MAX_SHIFT_MAG)] shift_mag; //The shift magnitude Input line
-    wire logic [0:LEN-1][0:(2*MAX_SHIFT_MAG)]and_out_msb;
+    wire logic [0:LEN-1][0:(2*MAX_SHIFT_MAG)]and_out_msb_or;
+    wire logic [0:LEN-1]and_out_msb;
 
 
     genvar i, j;
@@ -53,25 +55,50 @@ module tranShifter( Ip, Op, shift_mag);
 
         // Base block logic
             for(i=0; i<(2*MAX_SHIFT_MAG+1); i=i+1) begin //{
-                // With wrap around 
-                if(WRAP_AROUND) begin 
-                    if((j-MAX_SHIFT_MAG+i) < 0) 
-                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i+LEN]);         
-                    else if((j-MAX_SHIFT_MAG+i) >= LEN) 
-                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i-LEN]);         
-                    else
-                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
-                 
-                // No wrap around 
+                // WITH output OR gate
+                if (WITH_OUT_OR) begin //{
+                    // With wrap around
+                    if(WRAP_AROUND) begin 
+                        if((j-MAX_SHIFT_MAG+i) < 0) 
+                            custom_tgate tgate(and_out_msb_or[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i+LEN]);         
+                        else if((j-MAX_SHIFT_MAG+i) >= LEN) 
+                            custom_tgate tgate(and_out_msb_or[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i-LEN]);         
+                        else
+                            custom_tgate tgate(and_out_msb_or[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
+                     
+                    // No wrap around 
+                    end else begin
+                       if((j-MAX_SHIFT_MAG+i) >= 0)
+                            custom_tgate tgate(and_out_msb_or[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
+                       else
+                            custom_tgate tgate(and_out_msb_or[j][i], shift_mag[i], 1'b0);         
+                    end
                 end else begin
-                   if((j-MAX_SHIFT_MAG+i) >= 0)
-                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
-                   else
-                        custom_tgate tgate(and_out_msb[j][i], shift_mag[i], 1'b0);         
-                end
+                    // With wrap around
+                     if(WRAP_AROUND) begin 
+                        if((j-MAX_SHIFT_MAG+i) < 0) 
+                            custom_tgate tgate(and_out_msb[j], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i+LEN]);         
+                        else if((j-MAX_SHIFT_MAG+i) >= LEN) 
+                            custom_tgate tgate(and_out_msb[j], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i-LEN]);         
+                        else
+                            custom_tgate tgate(and_out_msb[j], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
+                     
+                    // No wrap around 
+                    end else begin
+                       if((j-MAX_SHIFT_MAG+i) >= 0)
+                            custom_tgate tgate(and_out_msb[j], shift_mag[i], Ip[j-MAX_SHIFT_MAG+i]);         
+                       else
+                            custom_tgate tgate(and_out_msb[j], shift_mag[i], 1'b0);         
+                    end
+               
+                end //}
             end //}
         
-        assign Op[j] = |and_out_msb[j];
+        if(WITH_OUT_OR)
+            assign Op[j] = |and_out_msb_or[j];
+        else
+            assign Op[j] = and_out_msb[j];
+
 
 
         end //}

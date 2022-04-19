@@ -8,7 +8,7 @@ Report : power
         -analysis_effort low
 Design : combShifter
 Version: P-2019.03
-Date   : Tue Apr 19 15:19:43 2022
+Date   : Tue Apr 19 15:19:52 2022
 ****************************************
 
 
@@ -34,12 +34,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  =   1.2414 uW   (70%)
-  Net Switching Power  = 529.0947 nW   (30%)
+  Cell Internal Power  =   2.3628 uW   (71%)
+  Net Switching Power  = 958.6130 nW   (29%)
                          ---------
-Total Dynamic Power    =   1.7705 uW  (100%)
+Total Dynamic Power    =   3.3214 uW  (100%)
 
-Cell Leakage Power     = 118.1717 nW
+Cell Leakage Power     = 214.2730 nW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -52,7 +52,7 @@ black_box          0.0000            0.0000            0.0000            0.0000 
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      1.2414            0.5291          118.1717            1.8887  ( 100.00%)
+combinational      2.3628            0.9586          214.2730            3.5356  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total              1.2414 uW         0.5291 uW       118.1717 nW         1.8887 uW
+Total              2.3628 uW         0.9586 uW       214.2730 nW         3.5356 uW
 1
