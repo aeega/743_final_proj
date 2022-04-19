@@ -35,8 +35,8 @@
 */
 
 module combShifter( Ip, Op, shift_mag);        
-    parameter LEN = 8;
-    parameter MAX_SHIFT_MAG = 2;
+    parameter LEN = 1;
+    parameter MAX_SHIFT_MAG = 0;
     parameter WRAP_AROUND = 0;
 
     input bit [0:LEN-1] Ip; //The LEN-bit Input line 

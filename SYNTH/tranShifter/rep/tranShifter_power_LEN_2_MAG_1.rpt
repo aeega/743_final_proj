@@ -2,13 +2,14 @@ Loading db file '/afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
 Warning: There is no defined clock in the design. (PWR-80)
 Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated black box outputs. (PWR-428)
  
 ****************************************
 Report : power
         -analysis_effort low
-Design : combShifter
+Design : tranShifter
 Version: P-2019.03
-Date   : Tue Apr 19 01:38:19 2022
+Date   : Tue Apr 19 04:45:02 2022
 ****************************************
 
 
@@ -22,7 +23,7 @@ Wire Load Model Mode: top
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-combShifter            5K_hvratio_1_1    NangateOpenCellLibrary
+tranShifter            5K_hvratio_1_1    NangateOpenCellLibrary
 
 
 Global Operating Voltage = 1.1  
@@ -34,12 +35,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  =   7.7842 uW   (60%)
-  Net Switching Power  =   5.0897 uW   (40%)
+  Cell Internal Power  = 407.7954 nW   (38%)
+  Net Switching Power  = 670.0682 nW   (62%)
                          ---------
-Total Dynamic Power    =  12.8739 uW  (100%)
+Total Dynamic Power    =   1.0779 uW  (100%)
 
-Cell Leakage Power     = 748.9391 nW
+Cell Leakage Power     =  48.8292 nW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -52,7 +53,7 @@ black_box          0.0000            0.0000            0.0000            0.0000 
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      7.7842            5.0897          748.9391           13.6228  ( 100.00%)
+combinational      0.4078            0.6701           48.8292            1.1267  ( 100.00%)
 --------------------------------------------------------------------------------------------------
-Total              7.7842 uW         5.0897 uW       748.9391 nW        13.6228 uW
+Total              0.4078 uW         0.6701 uW        48.8292 nW         1.1267 uW
 1

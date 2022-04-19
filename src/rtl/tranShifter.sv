@@ -35,8 +35,8 @@
 */
 
 module tranShifter( Ip, Op, shift_mag);        
-    parameter LEN = 8;
-    parameter MAX_SHIFT_MAG = 2;
+    parameter LEN = 1;
+    parameter MAX_SHIFT_MAG = 0;
     parameter WRAP_AROUND = 1;
     parameter WITH_CMOS = 1;
 
