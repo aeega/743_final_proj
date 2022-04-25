@@ -23,7 +23,7 @@ set top_mdl tranShifter
 define_design_lib WORK -path "./work"
 
 # Small loop to read in several files
-set all_files {../../src/rtl/tranShifter.sv}
+set all_files {../../src/rtl/tranShifter.sv ../../src/rtl/custom_tgate.sv}
 foreach file $all_files {
  set module_source "$file"
  set both "{$module_source}"

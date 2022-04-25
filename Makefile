@@ -28,6 +28,8 @@ help:
 	@echo "   regShifter-sim:  		RTL simulation of reg shifter"
 	@echo "   regShifter-wave:  	Waveform gui of reg shifter"
 	@echo "   regShifter-synth: 	Synthesis run for reg shifter"
+	@echo "   cleanall: 			Cleans all SIM/ SYNTH/ and PNR/ directories
+	@echo "   cleanPPA: 			Cleans all files under PPA/ subdirectories
 	@echo ""
 	@echo " "
 
@@ -193,5 +195,9 @@ regShifter-synth:
 
 .PHONY: cleanall
 cleanall:
-	rm -rf $(CURDIR)/SIM $(CURDIR)/SYNTH $(CURDIR)/PNR
+	rm -rf $(CURDIR)/SIM $(CURDIR)/SYNTH $(CURDIR)/PNR 
 	#find . -maxdepth 1 -type d | grep "./" | xargs -I {} make clean -C {}
+
+.PHONY: cleanPPA
+cleanPPA:
+	rm -rf $(CURDIR)/PPA/combShifter/* $(CURDIR)/PPA/tranShifter/* $(CURDIR)/PPA/barrelShifter/* $(CURDIR)/PPA/regShifter/*

@@ -1,0 +1,94 @@
+{
+    "stat": {
+        "CodeGen(%)": 23.736130316009575,
+        "ru_self_cgstart": {
+            "ru_minflt": 13544,
+            "ru_maxrss_kb": 50544,
+            "ru_utime_sec": 0.045226000000000002,
+            "ru_stime_sec": 0.038765000000000001,
+            "ru_majflt": 0,
+            "ru_nvcsw": 184,
+            "ru_nivcsw": 2
+        },
+        "nMops": 1263,
+        "ru_childs_cgstart": {
+            "ru_minflt": 2800,
+            "ru_maxrss_kb": 15612,
+            "ru_utime_sec": 0.001163,
+            "ru_stime_sec": 0.013117999999999999,
+            "ru_majflt": 0,
+            "ru_nvcsw": 12,
+            "ru_nivcsw": 10
+        },
+        "nQuads": 509,
+        "outputSizePerQuad": 296.0,
+        "totalObjSize": 150999,
+        "Frontend(%)": 76.263869683990436,
+        "ru_self_end": {
+            "ru_minflt": 15598,
+            "ru_maxrss_kb": 58980,
+            "ru_utime_sec": 0.059302000000000001,
+            "ru_stime_sec": 0.055065999999999997,
+            "ru_majflt": 0,
+            "ru_nvcsw": 260,
+            "ru_nivcsw": 2
+        },
+        "mop/quad": 2.4813359528487231,
+        "mopSpeed": 89727.195225916468,
+        "ru_childs_end": {
+            "ru_minflt": 2800,
+            "ru_maxrss_kb": 15612,
+            "ru_utime_sec": 0.001163,
+            "ru_stime_sec": 0.013117999999999999,
+            "ru_majflt": 0,
+            "ru_nvcsw": 12,
+            "ru_nivcsw": 10
+        },
+        "quadSpeed": 36160.841148053427
+    },
+    "NameTable": {
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "combShifter_tb": [
+            "combShifter_tb",
+            "TrYjP",
+            "module"
+        ]
+    },
+    "CompileProcesses": [
+        "cgproc.10536.json"
+    ],
+    "CompileStrategy": "fullobj",
+    "CompileStatus": "Successful",
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "combShifter_tb"
+    ],
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 89396
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/SIM/combShifter",
+        "csrc_abs": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/SIM/combShifter/csrc",
+        "archive_dir": "archive.0",
+        "daidir_abs": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/SIM/combShifter/simv.daidir",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    }
+}
