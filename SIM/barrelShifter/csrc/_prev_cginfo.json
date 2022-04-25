@@ -1,0 +1,140 @@
+{
+    "LVLData": [
+        "SIM"
+    ],
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 7622,
+                "checksum": 4294967295,
+                "out": "objs/amcQw_d.o",
+                "mode": 4
+            }
+        },
+        "combShifter_tb": {
+            "TrYjP_d": {
+                "mod": "combShifter_tb",
+                "bytes": 21762,
+                "archive": "archive.3/_33770_archive_1.a",
+                "checksum": 4294967295,
+                "out": "TrYjP_d.o",
+                "mode": 4
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mod": "std",
+                "bytes": 34979,
+                "mode": 4,
+                "out": "reYIK_d.o",
+                "archive": "archive.3/_prev_archive_1.a",
+                "checksum": 4294967295
+            }
+        },
+        "custom_tgate": {
+            "jGv70_d": {
+                "mod": "custom_tgate",
+                "bytes": 8347,
+                "mode": 4,
+                "out": "jGv70_d.o",
+                "archive": "archive.3/_prev_archive_1.a",
+                "checksum": 4294967295
+            }
+        }
+    },
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "combShifter_tb"
+    ],
+    "PEModules": [],
+    "MlibObjs": {},
+    "NameTable": {
+        "custom_tgate": [
+            "custom_tgate",
+            "jGv70",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "combShifter_tb": [
+            "combShifter_tb",
+            "TrYjP",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "ru_childs_end": {
+            "ru_nivcsw": 8,
+            "ru_utime_sec": 0.0030920000000000001,
+            "ru_stime_sec": 0.0086429999999999996,
+            "ru_nvcsw": 6,
+            "ru_maxrss_kb": 13556,
+            "ru_majflt": 0,
+            "ru_minflt": 2219
+        },
+        "ru_self_cgstart": {
+            "ru_nivcsw": 5,
+            "ru_utime_sec": 0.051431999999999999,
+            "ru_stime_sec": 0.032729000000000001,
+            "ru_nvcsw": 158,
+            "ru_maxrss_kb": 55040,
+            "ru_majflt": 0,
+            "ru_minflt": 13320
+        },
+        "ru_self_end": {
+            "ru_nivcsw": 6,
+            "ru_utime_sec": 0.067537,
+            "ru_stime_sec": 0.044706999999999997,
+            "ru_nvcsw": 223,
+            "ru_maxrss_kb": 61572,
+            "ru_majflt": 0,
+            "ru_minflt": 15352
+        },
+        "mop/quad": 2.3423831070889896,
+        "ru_childs_cgstart": {
+            "ru_nivcsw": 8,
+            "ru_utime_sec": 0.0030920000000000001,
+            "ru_stime_sec": 0.0086429999999999996,
+            "ru_nvcsw": 6,
+            "ru_maxrss_kb": 13556,
+            "ru_majflt": 0,
+            "ru_minflt": 2219
+        },
+        "quadSpeed": 41167.339335610057,
+        "nMops": 1553,
+        "nQuads": 663,
+        "totalObjSize": 123971,
+        "mopSpeed": 96429.680223533054,
+        "outputSizePerQuad": 186.0,
+        "Frontend(%)": 76.153811984541804,
+        "CodeGen(%)": 23.846188015458193
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 89661
+    },
+    "Misc": {
+        "cwd": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SIM/barrelShifter",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SIM/barrelShifter/csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.3",
+        "daidir_abs": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SIM/barrelShifter/simv.daidir"
+    },
+    "CompileProcesses": [
+        "cgproc.33770.json"
+    ],
+    "CompileStatus": "Successful"
+}

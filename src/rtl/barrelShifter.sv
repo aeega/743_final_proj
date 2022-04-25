@@ -33,11 +33,11 @@
 
 ====================================================================================================
 */
-
 module barrelShifter( Ip, Op, shift_mag);        
-    parameter LEN = 1;
-    parameter MAX_SHIFT_MAG = 0;
+    parameter LEN = 2;
+    parameter MAX_SHIFT_MAG = 1;
     parameter WRAP_AROUND = 0;
+    parameter SHIFT_AS_ONE_HOT = 0;
 
     input bit [0:LEN-1] Ip; //The LEN-bit Input line 
     output bit [0:LEN-1] Op; //The LEN-bit Output line 
@@ -48,8 +48,9 @@ module barrelShifter( Ip, Op, shift_mag);
     bit sign;
     logic [$clog2(2*MAX_SHIFT_MAG):0] value, shift_value;
     logic [(2*LEN)-1:0] temp;
- 
-    encoder #(.MAX_SHIFT_MAG(MAX_SHIFT_MAG)) OneHot_2_binary (.binary_shift(value), .one_hot_shift(shift_mag));
+    
+    encoder #(.MAX_SHIFT_MAG(MAX_SHIFT_MAG), .SHIFT_AS_ONE_HOT(SHIFT_AS_ONE_HOT)) OneHot_2_binary (.binary_shift(value), .one_hot_shift(shift_mag));
+
 
     assign sign = value < MAX_SHIFT_MAG;
     assign shift_value = sign ? (MAX_SHIFT_MAG - value) : (value - MAX_SHIFT_MAG) ;
@@ -87,25 +88,30 @@ module MUX2(
 
 endmodule
 
-
 // Encoder to covert one-hot encoding to binary encoding
-module encoder #(parameter MAX_SHIFT_MAG = 0)(
+module encoder #(parameter MAX_SHIFT_MAG = 0, parameter SHIFT_AS_ONE_HOT = 1)(
     output logic [$clog2(2*MAX_SHIFT_MAG):0] binary_shift,
     input logic [0:(2*MAX_SHIFT_MAG)] one_hot_shift
 );
-
-    logic [MAX_SHIFT_MAG:0] i;
-
-    always_comb begin
-
-        binary_shift  = MAX_SHIFT_MAG;
-
-        for ( i=0; i<= 2*MAX_SHIFT_MAG ; i = i+1 ) 
-            if (one_hot_shift[i]) begin
-               binary_shift= i;
+    // Actual encoder
+    if(SHIFT_AS_ONE_HOT) begin //{
+    
+        logic [MAX_SHIFT_MAG:0] i;
+    
+        always_comb begin
+    
+            binary_shift  = MAX_SHIFT_MAG;
+    
+            for ( i=0; i<= 2*MAX_SHIFT_MAG ; i = i+1 ) 
+                if (one_hot_shift[i]) begin
+                   binary_shift= i;
+            end
+    
         end
-
-    end
+    // Not functional    
+    end else begin //{
+        assign binary_shift = one_hot_shift;
+    end//}
   
 endmodule
 
