@@ -1,0 +1,100 @@
+{
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "test_shifter",
+        "custom_tgate"
+    ],
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "test_shifter": [
+            "test_shifter",
+            "YNP2y",
+            "module"
+        ],
+        "custom_tgate": [
+            "custom_tgate",
+            "jGv70",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "CompileProcesses": [
+        "cgproc.36858.json"
+    ],
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 90536
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.048562000000000001,
+            "ru_stime_sec": 0.027591999999999998,
+            "ru_minflt": 13248,
+            "ru_maxrss_kb": 51340,
+            "ru_nivcsw": 2,
+            "ru_majflt": 0,
+            "ru_nvcsw": 184
+        },
+        "nQuads": 705,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.003447,
+            "ru_stime_sec": 0.010800000000000001,
+            "ru_minflt": 2803,
+            "ru_maxrss_kb": 14312,
+            "ru_nivcsw": 10,
+            "ru_majflt": 0,
+            "ru_nvcsw": 12
+        },
+        "nMops": 1693,
+        "totalObjSize": 166095,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.003447,
+            "ru_stime_sec": 0.010800000000000001,
+            "ru_minflt": 2803,
+            "ru_maxrss_kb": 14312,
+            "ru_nivcsw": 10,
+            "ru_majflt": 0,
+            "ru_nvcsw": 12
+        },
+        "mopSpeed": 93966.809124715553,
+        "Frontend(%)": 72.938914672794724,
+        "ru_self_end": {
+            "ru_utime_sec": 0.066578999999999999,
+            "ru_stime_sec": 0.048322999999999998,
+            "ru_minflt": 16145,
+            "ru_maxrss_kb": 61020,
+            "ru_nivcsw": 2,
+            "ru_majflt": 0,
+            "ru_nvcsw": 275
+        },
+        "outputSizePerQuad": 235.0,
+        "quadSpeed": 39129.710828661824,
+        "mop/quad": 2.4014184397163119,
+        "CodeGen(%)": 27.061085327205273
+    },
+    "PEModules": [],
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "daidir": "simv.daidir",
+        "cwd": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SIM/regShifter",
+        "csrc_abs": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SIM/regShifter/csrc",
+        "csrc": "csrc",
+        "daidir_abs": "/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SIM/regShifter/simv.daidir",
+        "archive_dir": "archive.0",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}

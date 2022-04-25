@@ -46,22 +46,22 @@ set REP_DIR ./rep
 ./rep
 set RTL_DIR ../../743_final_proj/src/rtl/
 ../../743_final_proj/src/rtl/
-set AREA_RPT $REP_DIR/combShifter_area.rpt
-./rep/combShifter_area.rpt
-set TIME_RPT $REP_DIR/combShifter_time.rpt
-./rep/combShifter_time.rpt
-set POWER_RPT $REP_DIR/combShifter_power.rpt
-./rep/combShifter_power.rpt
-set top_mdl combShifter
-combShifter
+set AREA_RPT $REP_DIR/regShifter_area.rpt
+./rep/regShifter_area.rpt
+set TIME_RPT $REP_DIR/regShifter_time.rpt
+./rep/regShifter_time.rpt
+set POWER_RPT $REP_DIR/regShifter_power.rpt
+./rep/regShifter_power.rpt
+set top_mdl regShifter
+regShifter
 define_design_lib WORK -path "./work"
 1
 # Small loop to read in several files
-#set all_files {../src/rtl/combShifter.sv}
+#set all_files {../src/rtl/regShifter.sv}
 pwd
-/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/SYNTH/combShifter
-set all_files {../../src/rtl/combShifter.sv}
-../../src/rtl/combShifter.sv
+/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SYNTH/regShifter
+set all_files {../../src/rtl/regShifter.sv}
+../../src/rtl/regShifter.sv
 foreach file $all_files {
  set module_source "$file"
  set both "{$module_source}"
@@ -74,30 +74,55 @@ Loading db file '/afs/ece/support/synopsys/synopsys.release/P-Foundation/2019.03
 Loading db file '/afs/ece/support/synopsys/synopsys.release/P-Foundation/2019.03/syn/P-2019.03/libraries/syn/standard.sldb'
   Loading link library 'NangateOpenCellLibrary'
   Loading link library 'gtech'
-Loading sverilog file '/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/src/rtl/combShifter.sv'
+Loading sverilog file '/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv'
 Detecting input file type automatically (-rtl or -netlist).
 Reading with Presto HDL Compiler (equivalent to -rtl option).
 Running PRESTO HDLC
-Compiling source file /afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/src/rtl/combShifter.sv
+Compiling source file /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv
+Warning:  /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv:64: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Inferred memory devices in process
+	in routine regShifter line 62 in file
+		'/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       Op_reg        | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Warning:  /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv:99: signed to unsigned conversion occurs. (VER-318)
 Presto compilation completed successfully.
-Current design is now '/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/src/rtl/combShifter.db:combShifter'
-Loaded 1 design.
-Current design is 'combShifter'.
+Current design is now '/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.db:regShifter'
+Loaded 2 designs.
+Current design is 'regShifter'.
 Running PRESTO HDLC
-Compiling source file ../../src/rtl/combShifter.sv
+Compiling source file ../../src/rtl/regShifter.sv
 Presto compilation completed successfully.
 elaborate $top_mdl
 Running PRESTO HDLC
-Presto compilation completed successfully. (combShifter)
+Warning:  ../../src/rtl/regShifter.sv:64: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Inferred memory devices in process
+	in routine regShifter line 62 in file
+		'../../src/rtl/regShifter.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       Op_reg        | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (regShifter)
 Elaborated 1 design.
-Current design is now 'combShifter'.
+Current design is now 'regShifter'.
+Information: Building the design 'encoder' instantiated from design 'regShifter' with
+	the parameters "MAX_SHIFT_MAG=3". (HDL-193)
+Warning:  ../../src/rtl/regShifter.sv:99: signed to unsigned conversion occurs. (VER-318)
+Presto compilation completed successfully. (encoder_MAX_SHIFT_MAG3)
 1
 link
 
-  Linking design 'combShifter'
+  Linking design 'regShifter'
   Using the following designs and libraries:
   --------------------------------------------------------------------------
-  * (2 designs)               /afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/SYNTH/combShifter/combShifter.db, etc
+  * (4 designs)               /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SYNTH/regShifter/regShifter.db, etc
   NangateOpenCellLibrary (library) /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db
   dw_foundation.sldb (library) /afs/ece/support/synopsys/synopsys.release/syn-vJ-2014.09-SP4/libraries/syn/dw_foundation.sldb
 
@@ -115,32 +140,62 @@ set_max_fanout 50 [get_designs $top_mdl]
 1
 # Uniquify (optional) and compile
 check_design
+ 
+****************************************
+check_design summary:
+Version:     P-2019.03
+Date:        Mon Apr 25 17:37:44 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Constant outputs (LINT-52)                                      1
+
+Cells                                                               4
+    Cells do not drive (LINT-1)                                     4
+--------------------------------------------------------------------------------
+
+Warning: In design 'regShifter', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'regShifter', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'regShifter', cell 'B_4' does not drive any nets. (LINT-1)
+Warning: In design 'regShifter', cell 'B_5' does not drive any nets. (LINT-1)
+Warning: In design 'encoder_MAX_SHIFT_MAG3', output port 'binary_shift[3]' is connected directly to 'logic 0'. (LINT-52)
 1
 compile -map_effort low
 Warning: The compile -map_effort low is obsolete. Setting this variable now defaults to compile -map_effort medium. Please update your script accordingly. (OPT-1303)
+Information: Checking out the license 'DesignWare'. (SEC-104)
 Information: Evaluating DesignWare library utilization. (UISN-27)
 
 ============================================================================
 | DesignWare Building Block Library  |         Version         | Available |
 ============================================================================
 | Basic DW Building Blocks           | P-2019.03-DWBB_201903.0 |     *     |
-| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.4 |           |
+| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.4 |     *     |
 ============================================================================
+
+
+Information: There are 5 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
 
 
 
   Beginning Pass 1 Mapping
   ------------------------
-  Processing 'combShifter'
+  Processing 'encoder_MAX_SHIFT_MAG3'
+  Processing 'regShifter'
+Loading db file '/afs/ece/support/synopsys/synopsys.release/syn-vJ-2014.09-SP4/libraries/syn/standard.sldb'
+Information: Added key list 'DesignWare' to design 'regShifter'. (DDB-72)
 
   Updating timing information
 Information: Updating design information... (UID-85)
-Information: Design 'combShifter' has no optimization constraints set. (OPT-108)
+Information: Design 'regShifter' has no optimization constraints set. (OPT-108)
 
   Beginning Mapping Optimizations  (Medium effort)
   -------------------------------
-  Structuring 'combShifter'
-  Mapping 'combShifter'
+  Structuring 'encoder_MAX_SHIFT_MAG3'
+  Mapping 'encoder_MAX_SHIFT_MAG3'
+  Structuring 'regShifter'
+  Mapping 'regShifter'
 
   Beginning Delay Optimization Phase
   ----------------------------------
@@ -149,9 +204,9 @@ Information: Design 'combShifter' has no optimization constraints set. (OPT-108)
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
+    0:00:01      67.8      0.00       0.0       0.0                          
+    0:00:01      67.8      0.00       0.0       0.0                          
+    0:00:01      67.8      0.00       0.0       0.0                          
 
 
   Beginning Area-Recovery Phase  (cleanup)
@@ -161,17 +216,19 @@ Information: Design 'combShifter' has no optimization constraints set. (OPT-108)
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
-    0:00:00       9.0      0.00       0.0       0.0                          
+    0:00:01      67.8      0.00       0.0       0.0                          
+    0:00:01      67.8      0.00       0.0       0.0                          
+    0:00:01      66.8      0.00       0.0       0.0                          
+    0:00:01      66.8      0.00       0.0       0.0                          
+    0:00:01      66.8      0.00       0.0       0.0                          
+    0:00:01      66.8      0.00       0.0       0.0                          
+    0:00:01      66.8      0.00       0.0       0.0                          
+    0:00:01      65.2      0.00       0.0       0.0                          
+    0:00:01      65.2      0.00       0.0       0.0                          
+    0:00:01      65.2      0.00       0.0       0.0                          
+    0:00:01      65.2      0.00       0.0       0.0                          
+    0:00:01      65.2      0.00       0.0       0.0                          
+    0:00:01      65.2      0.00       0.0       0.0                          
 Loading db file '/afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db'
 
 
@@ -215,11 +272,11 @@ if {![file exists ${REP_DIR}]} {
 }
 Creating directory ./rep
 write -format verilog -hierarchy -output $OUT_DIR/{$top_mdl}_netlist.v
-Writing verilog file '/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/SYNTH/combShifter/out/{combShifter}_netlist.v'.
+Writing verilog file '/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SYNTH/regShifter/out/{regShifter}_netlist.v'.
 1
 write_sdf -version 1.0 $OUT_DIR/{$top_mdl}.sdf
 Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
-Information: Writing timing information to file '/afs/andrew.cmu.edu/usr13/aeega/private/18743/backup/SYNTH/combShifter/out/{combShifter}.sdf'. (WT-3)
+Information: Writing timing information to file '/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/SYNTH/regShifter/out/{regShifter}.sdf'. (WT-3)
 Information: Updating design information... (UID-85)
 1
 redirect $AREA_RPT { report_area -hierarchy }

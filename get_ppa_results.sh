@@ -91,10 +91,11 @@ then
     
             # get the PPA numbers to a csv file 
             #exec grep "Total cell area" $PWD/SYNTH/tranShifter/rep/tranShifter_area.rpt | awk -F " " '{print $4}'
+            sed -i "s#parameter LEN = $i#parameter LEN = 1#" $PWD/src/rtl/tranShifter.sv
+            sed -i "s#parameter MAX_SHIFT_MAG = $j#parameter MAX_SHIFT_MAG = 0#" $PWD/src/rtl/tranShifter.sv
+            sleep 2
         done
     done
-    sed -i "s#parameter LEN = $i#parameter LEN = 1#" $PWD/src/rtl/tranShifter.sv
-    sed -i "s#parameter MAX_SHIFT_MAG = $j#parameter MAX_SHIFT_MAG = 0#" $PWD/src/rtl/tranShifter.sv
 
 elif [ "$SHIFTER" = "barrelShifter" ];
 then
@@ -131,10 +132,11 @@ then
     
             # get the PPA numbers to a csv file 
             #exec grep "Total cell area" $PWD/SYNTH/barrelShifter/rep/tranShifter_area.rpt | awk -F " " '{print $4}'
+            sed -i "s#parameter LEN = $i#parameter LEN = 1#" $PWD/src/rtl/barrelShifter.sv
+            sed -i "s#parameter MAX_SHIFT_MAG = $j#parameter MAX_SHIFT_MAG = 0#" $PWD/src/rtl/barrelShifter.sv
+            sleep 2
         done
     done
-    sed -i "s#parameter LEN = $i#parameter LEN = 1#" $PWD/src/rtl/barrelShifter.sv
-    sed -i "s#parameter MAX_SHIFT_MAG = $j#parameter MAX_SHIFT_MAG = 0#" $PWD/src/rtl/barrelShifter.sv
 
 elif [ "$SHIFTER" = "regShifter" ];
 then
@@ -171,15 +173,11 @@ then
     
             # get the PPA numbers to a csv file 
             #exec grep "Total cell area" $PWD/SYNTH/regShifter/rep/tranShifter_area.rpt | awk -F " " '{print $4}'
+            sed -i "s#parameter LEN = $i#parameter LEN = 1#" $PWD/src/rtl/regShifter.sv
+            sed -i "s#parameter MAX_SHIFT_MAG = $j#parameter MAX_SHIFT_MAG = 0#" $PWD/src/rtl/regShifter.sv
+            sleep 2
         done
     done
-    sed -i "s#parameter LEN = $i#parameter LEN = 1#" $PWD/src/rtl/regShifter.sv
-    sed -i "s#parameter MAX_SHIFT_MAG = $j#parameter MAX_SHIFT_MAG = 0#" $PWD/src/rtl/regShifter.sv
-e
-
-
-
-
 
 else 
     echo Invalid command. Sample command below.
