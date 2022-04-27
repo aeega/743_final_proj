@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : regShifter
+Version: P-2019.03
+Date   : Tue Apr 26 23:03:22 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                           22
+Number of nets:                            62
+Number of cells:                           45
+Number of combinational cells:             40
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                       9
+
+Combinational area:                 44.156000
+Buf/Inv area:                        7.714000
+Noncombinational area:              24.472000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    68.628000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------
+regShifter                          68.6280    100.0   37.2400    24.4720  0.0000  regShifter
+genblk1_OneHot_2_binary              6.9160     10.1    6.9160     0.0000  0.0000  encoder_MAX_SHIFT_MAG2
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------
+Total                                                  44.1560    24.4720  0.0000
+
+1

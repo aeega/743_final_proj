@@ -1,0 +1,320 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 100
+Design : regShifter
+Version: P-2019.03
+Date   : Tue Apr 26 22:25:39 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: Op_reg_0_ (rising edge-triggered flip-flop)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_0_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_0_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[0] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_1_ (rising edge-triggered flip-flop)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_1_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_1_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[1] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_2_ (rising edge-triggered flip-flop)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_2_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_2_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[2] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_3_ (rising edge-triggered flip-flop)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_3_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_3_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[3] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_4_ (rising edge-triggered flip-flop)
+  Endpoint: Op[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_4_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_4_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[4] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_5_ (rising edge-triggered flip-flop)
+  Endpoint: Op[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_5_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_5_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[5] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_6_ (rising edge-triggered flip-flop)
+  Endpoint: Op[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_6_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_6_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[6] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_7_ (rising edge-triggered flip-flop)
+  Endpoint: Op[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_7_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_7_/Q (SDFF_X1)                    0.06       0.06 f
+  Op[7] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_0_ (rising edge-triggered flip-flop)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_0_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_0_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_1_ (rising edge-triggered flip-flop)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_1_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_1_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_2_ (rising edge-triggered flip-flop)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_2_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_2_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[2] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_3_ (rising edge-triggered flip-flop)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_3_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_3_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[3] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_4_ (rising edge-triggered flip-flop)
+  Endpoint: Op[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_4_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_4_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[4] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_5_ (rising edge-triggered flip-flop)
+  Endpoint: Op[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_5_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_5_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[5] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_6_ (rising edge-triggered flip-flop)
+  Endpoint: Op[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_6_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_6_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[6] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Op_reg_7_ (rising edge-triggered flip-flop)
+  Endpoint: Op[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  regShifter         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Op_reg_7_/CK (SDFF_X1)                   0.00       0.00 r
+  Op_reg_7_/Q (SDFF_X1)                    0.05       0.05 r
+  Op[7] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

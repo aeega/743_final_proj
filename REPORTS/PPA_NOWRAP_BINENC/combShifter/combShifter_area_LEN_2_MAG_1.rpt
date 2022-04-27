@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : combShifter
+Version: P-2019.03
+Date   : Tue Apr 26 20:14:28 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                           12
+Number of nets:                            18
+Number of cells:                           10
+Number of combinational cells:              9
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          3
+Number of references:                       4
+
+Combinational area:                  7.980000
+Buf/Inv area:                        1.596000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                     7.980000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------
+combShifter                          7.9800    100.0    4.7880     0.0000  0.0000  combShifter
+genblk1_binary_2_OneHot              3.1920     40.0    3.1920     0.0000  0.0000  decoder_MAX_SHIFT_MAG1
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------
+Total                                                   7.9800     0.0000  0.0000
+
+1

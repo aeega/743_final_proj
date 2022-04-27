@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : area
+Design : regShifter
+Version: P-2019.03
+Date   : Tue Apr 26 23:37:05 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                          125
+Number of nets:                           390
+Number of cells:                          281
+Number of combinational cells:            262
+Number of sequential cells:                16
+Number of macros/black boxes:               0
+Number of buf/inv:                         72
+Number of references:                      19
+
+Combinational area:                292.334001
+Buf/Inv area:                       38.570000
+Noncombinational area:              97.888000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   390.222002
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------
+regShifter                         390.2220    100.0  196.0420    97.8880  0.0000  regShifter
+genblk1_OneHot_2_binary             68.8940     17.7   68.8940     0.0000  0.0000  encoder_MAX_SHIFT_MAG16
+r311                                27.3980      7.0   27.3980     0.0000  0.0000  regShifter_DW01_sub_0
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------
+Total                                                 292.3340    97.8880  0.0000
+
+1

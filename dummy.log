@@ -79,17 +79,17 @@ Detecting input file type automatically (-rtl or -netlist).
 Reading with Presto HDL Compiler (equivalent to -rtl option).
 Running PRESTO HDLC
 Compiling source file /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv
-Warning:  /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv:64: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv:68: Statement unreachable (Branch condition impossible to meet).  (VER-61)
 
 Inferred memory devices in process
-	in routine regShifter line 62 in file
+	in routine regShifter line 66 in file
 		'/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
-|       Op_reg        | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|       Op_reg        | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
 ===============================================================================
-Warning:  /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv:99: signed to unsigned conversion occurs. (VER-318)
+Warning:  /afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.sv:103: signed to unsigned conversion occurs. (VER-318)
 Presto compilation completed successfully.
 Current design is now '/afs/andrew.cmu.edu/usr13/aeega/private/18743/743_final_proj/src/rtl/regShifter.db:regShifter'
 Loaded 2 designs.
@@ -99,23 +99,23 @@ Compiling source file ../../src/rtl/regShifter.sv
 Presto compilation completed successfully.
 elaborate $top_mdl
 Running PRESTO HDLC
-Warning:  ../../src/rtl/regShifter.sv:64: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  ../../src/rtl/regShifter.sv:68: Statement unreachable (Branch condition impossible to meet).  (VER-61)
 
 Inferred memory devices in process
-	in routine regShifter line 62 in file
+	in routine regShifter line 66 in file
 		'../../src/rtl/regShifter.sv'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
-|       Op_reg        | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|       Op_reg        | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
 ===============================================================================
 Presto compilation completed successfully. (regShifter)
 Elaborated 1 design.
 Current design is now 'regShifter'.
 Information: Building the design 'encoder' instantiated from design 'regShifter' with
-	the parameters "MAX_SHIFT_MAG=3". (HDL-193)
-Warning:  ../../src/rtl/regShifter.sv:99: signed to unsigned conversion occurs. (VER-318)
-Presto compilation completed successfully. (encoder_MAX_SHIFT_MAG3)
+	the parameters "MAX_SHIFT_MAG=128". (HDL-193)
+Warning:  ../../src/rtl/regShifter.sv:103: signed to unsigned conversion occurs. (VER-318)
+Presto compilation completed successfully. (encoder_MAX_SHIFT_MAG128)
 1
 link
 
@@ -144,14 +144,11 @@ check_design
 ****************************************
 check_design summary:
 Version:     P-2019.03
-Date:        Mon Apr 25 17:37:44 2022
+Date:        Tue Apr 26 23:40:12 2022
 ****************************************
 
                    Name                                            Total
 --------------------------------------------------------------------------------
-Inputs/Outputs                                                      1
-    Constant outputs (LINT-52)                                      1
-
 Cells                                                               4
     Cells do not drive (LINT-1)                                     4
 --------------------------------------------------------------------------------
@@ -160,7 +157,6 @@ Warning: In design 'regShifter', cell 'B_2' does not drive any nets. (LINT-1)
 Warning: In design 'regShifter', cell 'B_3' does not drive any nets. (LINT-1)
 Warning: In design 'regShifter', cell 'B_4' does not drive any nets. (LINT-1)
 Warning: In design 'regShifter', cell 'B_5' does not drive any nets. (LINT-1)
-Warning: In design 'encoder_MAX_SHIFT_MAG3', output port 'binary_shift[3]' is connected directly to 'logic 0'. (LINT-52)
 1
 compile -map_effort low
 Warning: The compile -map_effort low is obsolete. Setting this variable now defaults to compile -map_effort medium. Please update your script accordingly. (OPT-1303)
@@ -175,25 +171,30 @@ Information: Evaluating DesignWare library utilization. (UISN-27)
 ============================================================================
 
 
-Information: There are 5 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+Information: There are 4 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
 
 
 
   Beginning Pass 1 Mapping
   ------------------------
-  Processing 'encoder_MAX_SHIFT_MAG3'
+  Processing 'encoder_MAX_SHIFT_MAG128'
   Processing 'regShifter'
-Loading db file '/afs/ece/support/synopsys/synopsys.release/syn-vJ-2014.09-SP4/libraries/syn/standard.sldb'
-Information: Added key list 'DesignWare' to design 'regShifter'. (DDB-72)
 
   Updating timing information
 Information: Updating design information... (UID-85)
 Information: Design 'regShifter' has no optimization constraints set. (OPT-108)
 
+  Beginning Implementation Selection
+  ----------------------------------
+  Mapping 'DW_rightsh'
+Information: Added key list 'DesignWare' to design 'regShifter'. (DDB-72)
+  Mapping 'DW_leftsh'
+  Processing 'regShifter_DW01_sub_0'
+
   Beginning Mapping Optimizations  (Medium effort)
   -------------------------------
-  Structuring 'encoder_MAX_SHIFT_MAG3'
-  Mapping 'encoder_MAX_SHIFT_MAG3'
+  Structuring 'encoder_MAX_SHIFT_MAG128'
+  Mapping 'encoder_MAX_SHIFT_MAG128'
   Structuring 'regShifter'
   Mapping 'regShifter'
 
@@ -204,9 +205,21 @@ Information: Design 'regShifter' has no optimization constraints set. (OPT-108)
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:01      67.8      0.00       0.0       0.0                          
-    0:00:01      67.8      0.00       0.0       0.0                          
-    0:00:01      67.8      0.00       0.0       0.0                          
+    0:00:05    4148.0      0.00       0.0    7252.9                          
+    0:00:05    4351.2      0.00       0.0    1599.6                          
+    0:00:05    4351.2      0.00       0.0    1599.6                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_fanout)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:05    4351.2      0.00       0.0    1599.6                          
+    0:00:06    4387.4      0.00       0.0       8.0 net13260                 
+    0:00:06    4387.9      0.00       0.0       0.0                          
 
 
   Beginning Area-Recovery Phase  (cleanup)
@@ -216,19 +229,21 @@ Information: Design 'regShifter' has no optimization constraints set. (OPT-108)
    ELAPSED            WORST NEG   SETUP    DESIGN                            
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
   --------- --------- --------- --------- --------- -------------------------
-    0:00:01      67.8      0.00       0.0       0.0                          
-    0:00:01      67.8      0.00       0.0       0.0                          
-    0:00:01      66.8      0.00       0.0       0.0                          
-    0:00:01      66.8      0.00       0.0       0.0                          
-    0:00:01      66.8      0.00       0.0       0.0                          
-    0:00:01      66.8      0.00       0.0       0.0                          
-    0:00:01      66.8      0.00       0.0       0.0                          
-    0:00:01      65.2      0.00       0.0       0.0                          
-    0:00:01      65.2      0.00       0.0       0.0                          
-    0:00:01      65.2      0.00       0.0       0.0                          
-    0:00:01      65.2      0.00       0.0       0.0                          
-    0:00:01      65.2      0.00       0.0       0.0                          
-    0:00:01      65.2      0.00       0.0       0.0                          
+    0:00:06    4387.9      0.00       0.0       0.0                          
+    0:00:06    4387.9      0.00       0.0       0.0                          
+    0:00:06    4370.1      0.00       0.0       0.0                          
+    0:00:06    4363.2      0.00       0.0       0.0                          
+    0:00:06    4359.5      0.00       0.0       0.0                          
+    0:00:06    4357.9      0.00       0.0       0.0                          
+    0:00:07    4354.2      0.00       0.0       0.0                          
+    0:00:07    4354.2      0.00       0.0       0.0                          
+    0:00:07    4354.2      0.00       0.0       0.0                          
+    0:00:07    4328.1      0.00       0.0       0.0                          
+    0:00:07    4328.1      0.00       0.0       0.0                          
+    0:00:07    4328.1      0.00       0.0       0.0                          
+    0:00:07    4328.1      0.00       0.0       0.0                          
+    0:00:07    4328.1      0.00       0.0       0.0                          
+    0:00:07    4328.1      0.00       0.0       0.0                          
 Loading db file '/afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db'
 
 

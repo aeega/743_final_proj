@@ -1,0 +1,1840 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 100
+Design : combShifter
+Version: P-2019.03
+Date   : Tue Apr 26 22:38:16 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[0] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.08       0.08 r
+  U8/ZN (OAI22_X1)                         0.03       0.11 f
+  Op[0] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[0] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.08       0.08 r
+  U7/ZN (OAI22_X1)                         0.03       0.11 f
+  Op[1] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[2] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.07       0.07 r
+  U8/ZN (OAI22_X1)                         0.03       0.11 f
+  Op[0] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[2] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.07       0.07 r
+  U7/ZN (OAI22_X1)                         0.03       0.11 f
+  Op[1] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[0] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.08       0.08 r
+  U8/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[0] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[0] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.08       0.08 r
+  U7/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[1] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[0] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.08       0.08 r
+  U8/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[0] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[0] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.08       0.08 r
+  U7/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[1] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[2] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.07       0.07 r
+  U8/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[0] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[2] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.07       0.07 r
+  U7/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[1] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[2] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.07       0.07 r
+  U8/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[0] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[2] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.07       0.07 r
+  U7/ZN (OAI22_X1)                         0.03       0.10 f
+  Op[1] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.06       0.06 r
+  U8/ZN (OAI22_X1)                         0.03       0.09 f
+  Op[0] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.06       0.06 r
+  U7/ZN (OAI22_X1)                         0.03       0.09 f
+  Op[1] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.06       0.06 r
+  U8/ZN (OAI22_X1)                         0.03       0.09 f
+  Op[0] (out)                              0.00       0.09 f
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.06       0.06 r
+  U7/ZN (OAI22_X1)                         0.03       0.09 f
+  Op[1] (out)                              0.00       0.09 f
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.06       0.06 r
+  U8/ZN (OAI22_X1)                         0.03       0.09 f
+  Op[0] (out)                              0.00       0.09 f
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U12/ZN (NOR3_X1)                         0.06       0.06 r
+  U7/ZN (OAI22_X1)                         0.03       0.09 f
+  Op[1] (out)                              0.00       0.09 f
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.05       0.05 r
+  U8/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[0] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.05       0.05 r
+  U7/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[1] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.05       0.05 r
+  U8/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[0] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.05       0.05 r
+  U7/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[1] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.05       0.05 r
+  U8/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[0] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.05       0.05 r
+  U7/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[1] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[1] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.04       0.04 r
+  U8/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[0] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[1] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.04       0.04 r
+  U7/ZN (OAI22_X1)                         0.03       0.08 f
+  Op[1] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[1] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.04       0.04 r
+  U8/ZN (OAI22_X1)                         0.03       0.07 f
+  Op[0] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[1] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.04       0.04 r
+  U7/ZN (OAI22_X1)                         0.03       0.07 f
+  Op[1] (out)                              0.00       0.08 f
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[1] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.04       0.04 r
+  U8/ZN (OAI22_X1)                         0.03       0.07 f
+  Op[0] (out)                              0.00       0.07 f
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[1] (in)                        0.00       0.00 f
+  U10/ZN (NOR2_X1)                         0.04       0.04 r
+  U7/ZN (OAI22_X1)                         0.03       0.07 f
+  Op[1] (out)                              0.00       0.07 f
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[1] (in)                               0.00       0.00 r
+  U9/ZN (INV_X1)                           0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.05       0.07 r
+  Op[0] (out)                              0.00       0.07 r
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[0] (in)                               0.00       0.00 r
+  U11/ZN (INV_X1)                          0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.05       0.07 r
+  Op[1] (out)                              0.00       0.07 r
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[1] (in)                               0.00       0.00 r
+  U9/ZN (INV_X1)                           0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.05       0.07 r
+  Op[0] (out)                              0.00       0.07 r
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[0] (in)                               0.00       0.00 r
+  U11/ZN (INV_X1)                          0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.05       0.07 r
+  Op[1] (out)                              0.00       0.07 r
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[1] (in)                               0.00       0.00 r
+  U9/ZN (INV_X1)                           0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.07 r
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[0] (in)                               0.00       0.00 r
+  U11/ZN (INV_X1)                          0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.07 r
+  data arrival time                                   0.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[3] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[3] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[1] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[1] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[3] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[3] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[1] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[1] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[3] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[3] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[1] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[1]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[1] (in)                        0.00       0.00 r
+  U10/ZN (NOR2_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[1] (in)                               0.00       0.00 f
+  U9/ZN (INV_X1)                           0.03       0.03 r
+  U8/ZN (OAI22_X1)                         0.03       0.06 f
+  Op[0] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[0] (in)                               0.00       0.00 f
+  U11/ZN (INV_X1)                          0.03       0.03 r
+  U7/ZN (OAI22_X1)                         0.03       0.06 f
+  Op[1] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[0] (in)                               0.00       0.00 r
+  U11/ZN (INV_X1)                          0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[1] (in)                               0.00       0.00 r
+  U9/ZN (INV_X1)                           0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[0] (in)                               0.00       0.00 r
+  U11/ZN (INV_X1)                          0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[1] (in)                               0.00       0.00 r
+  U9/ZN (INV_X1)                           0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[0] (in)                               0.00       0.00 r
+  U11/ZN (INV_X1)                          0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Ip[1] (in)                               0.00       0.00 r
+  U9/ZN (INV_X1)                           0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.04       0.06 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[0] (in)                               0.00       0.00 f
+  U11/ZN (INV_X1)                          0.03       0.03 r
+  U8/ZN (OAI22_X1)                         0.03       0.06 f
+  Op[0] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[1] (in)                               0.00       0.00 f
+  U9/ZN (INV_X1)                           0.03       0.03 r
+  U7/ZN (OAI22_X1)                         0.03       0.06 f
+  Op[1] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[1] (in)                               0.00       0.00 f
+  U9/ZN (INV_X1)                           0.03       0.03 r
+  U8/ZN (OAI22_X1)                         0.03       0.05 f
+  Op[0] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[0] (in)                               0.00       0.00 f
+  U11/ZN (INV_X1)                          0.03       0.03 r
+  U7/ZN (OAI22_X1)                         0.03       0.05 f
+  Op[1] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[2] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[2] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[1] (in)                               0.00       0.00 f
+  U9/ZN (INV_X1)                           0.03       0.03 r
+  U8/ZN (OAI22_X1)                         0.03       0.05 f
+  Op[0] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[0] (in)                               0.00       0.00 f
+  U11/ZN (INV_X1)                          0.03       0.03 r
+  U7/ZN (OAI22_X1)                         0.03       0.05 f
+  Op[1] (out)                              0.00       0.06 f
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[0] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[0] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.06 r
+  data arrival time                                   0.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[4] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[4] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[2] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[2] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[2] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[2]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[2] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[0] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[0] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[0] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[0]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[0] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[0] (in)                               0.00       0.00 f
+  U11/ZN (INV_X1)                          0.03       0.03 r
+  U8/ZN (OAI22_X1)                         0.03       0.05 f
+  Op[0] (out)                              0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[1] (in)                               0.00       0.00 f
+  U9/ZN (INV_X1)                           0.03       0.03 r
+  U7/ZN (OAI22_X1)                         0.03       0.05 f
+  Op[1] (out)                              0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[4] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[4] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[4] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U8/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[0] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  shift_mag[4] (in)                        0.00       0.00 r
+  U12/ZN (NOR3_X1)                         0.02       0.02 f
+  U7/ZN (OAI22_X1)                         0.03       0.05 r
+  Op[1] (out)                              0.00       0.05 r
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[0] (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[0] (in)                               0.00       0.00 f
+  U11/ZN (INV_X1)                          0.03       0.03 r
+  U8/ZN (OAI22_X1)                         0.02       0.05 f
+  Op[0] (out)                              0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[1] (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[1] (in)                               0.00       0.00 f
+  U9/ZN (INV_X1)                           0.03       0.03 r
+  U7/ZN (OAI22_X1)                         0.02       0.05 f
+  Op[1] (out)                              0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

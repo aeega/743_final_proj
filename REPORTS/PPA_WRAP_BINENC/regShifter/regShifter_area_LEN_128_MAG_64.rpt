@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : regShifter
+Version: P-2019.03
+Date   : Tue Apr 26 22:29:46 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                          412
+Number of nets:                          3259
+Number of cells:                         3093
+Number of combinational cells:           2963
+Number of sequential cells:               128
+Number of macros/black boxes:               0
+Number of buf/inv:                        915
+Number of references:                      24
+
+Combinational area:               3613.610003
+Buf/Inv area:                      540.511999
+Noncombinational area:             783.104004
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  4396.714007
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------
+regShifter                        4396.7140    100.0  3573.1780   783.1040  0.0000  regShifter
+r311                                40.4320      0.9    40.4320     0.0000  0.0000  regShifter_DW01_sub_0
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------
+Total                                                 3613.6100   783.1040  0.0000
+
+1

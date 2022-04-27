@@ -1,0 +1,2267 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 100
+Design : combShifter
+Version: P-2019.03
+Date   : Tue Apr 26 22:00:45 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.06       0.19 r
+  U23/ZN (OAI211_X1)                                      0.04       0.23 f
+  Op[3] (out)                                             0.00       0.23 f
+  data arrival time                                                  0.23
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.06       0.19 r
+  U23/ZN (OAI211_X1)                       0.04       0.23 f
+  Op[3] (out)                              0.00       0.23 f
+  data arrival time                                   0.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.06       0.19 r
+  U23/ZN (OAI211_X1)                                      0.03       0.22 f
+  Op[3] (out)                                             0.00       0.23 f
+  data arrival time                                                  0.23
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.06       0.19 r
+  U23/ZN (OAI211_X1)                       0.03       0.22 f
+  Op[3] (out)                              0.00       0.23 f
+  data arrival time                                   0.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.06       0.19 r
+  U23/ZN (OAI211_X1)                                      0.03       0.22 f
+  Op[3] (out)                                             0.00       0.22 f
+  data arrival time                                                  0.22
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.06       0.19 r
+  U23/ZN (OAI211_X1)                       0.03       0.22 f
+  Op[3] (out)                              0.00       0.22 f
+  data arrival time                                   0.22
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.06       0.18 r
+  U23/ZN (OAI211_X1)                                      0.04       0.22 f
+  Op[3] (out)                                             0.00       0.22 f
+  data arrival time                                                  0.22
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.06       0.18 r
+  U23/ZN (OAI211_X1)                       0.04       0.22 f
+  Op[3] (out)                              0.00       0.22 f
+  data arrival time                                   0.22
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.06       0.18 r
+  U23/ZN (OAI211_X1)                                      0.03       0.22 f
+  Op[3] (out)                                             0.00       0.22 f
+  data arrival time                                                  0.22
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.06       0.18 r
+  U23/ZN (OAI211_X1)                       0.03       0.22 f
+  Op[3] (out)                              0.00       0.22 f
+  data arrival time                                   0.22
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.06       0.18 r
+  U23/ZN (OAI211_X1)                                      0.03       0.22 f
+  Op[3] (out)                                             0.00       0.22 f
+  data arrival time                                                  0.22
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.06       0.18 r
+  U23/ZN (OAI211_X1)                       0.03       0.22 f
+  Op[3] (out)                              0.00       0.22 f
+  data arrival time                                   0.22
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.05       0.18 r
+  U36/ZN (OAI211_X1)                                      0.04       0.22 f
+  Op[0] (out)                                             0.00       0.22 f
+  data arrival time                                                  0.22
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.05       0.18 r
+  U36/ZN (OAI211_X1)                       0.04       0.22 f
+  Op[0] (out)                              0.00       0.22 f
+  data arrival time                                   0.22
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.05       0.18 r
+  U23/ZN (OAI211_X1)                                      0.04       0.22 f
+  Op[3] (out)                                             0.00       0.22 f
+  data arrival time                                                  0.22
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.05       0.18 r
+  U23/ZN (OAI211_X1)                       0.04       0.22 f
+  Op[3] (out)                              0.00       0.22 f
+  data arrival time                                   0.22
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.06       0.18 r
+  U23/ZN (OAI211_X1)                                      0.04       0.22 f
+  Op[3] (out)                                             0.00       0.22 f
+  data arrival time                                                  0.22
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.05       0.18 r
+  U36/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[0] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.05       0.18 r
+  U36/ZN (OAI211_X1)                       0.03       0.21 f
+  Op[0] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.05       0.18 r
+  U23/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.05       0.18 r
+  U23/ZN (OAI211_X1)                       0.03       0.21 f
+  Op[3] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.06       0.18 r
+  U23/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.05       0.18 r
+  U36/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[0] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.05       0.18 r
+  U36/ZN (OAI211_X1)                       0.03       0.21 f
+  Op[0] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.05       0.17 r
+  U36/ZN (OAI211_X1)                                      0.04       0.21 f
+  Op[0] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.05       0.17 r
+  U36/ZN (OAI211_X1)                       0.04       0.21 f
+  Op[0] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U24/ZN (AOI22_X1)                                       0.05       0.18 r
+  U23/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U24/ZN (AOI22_X1)                        0.05       0.18 r
+  U23/ZN (OAI211_X1)                       0.03       0.21 f
+  Op[3] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.06       0.18 r
+  U23/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.06       0.17 r
+  U23/ZN (OAI211_X1)                                      0.04       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.05       0.17 r
+  U36/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[0] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.05       0.17 r
+  U36/ZN (OAI211_X1)                       0.03       0.21 f
+  Op[0] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.06       0.17 r
+  U23/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.05       0.17 r
+  U36/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[0] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.05       0.17 r
+  U36/ZN (OAI211_X1)                       0.03       0.21 f
+  Op[0] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.06       0.17 r
+  U23/ZN (OAI211_X1)                                      0.04       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.06       0.17 r
+  U23/ZN (OAI211_X1)                                      0.03       0.21 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.05       0.17 r
+  U36/ZN (OAI211_X1)                                      0.04       0.21 f
+  Op[0] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.04       0.17 r
+  U36/ZN (OAI211_X1)                                      0.04       0.21 f
+  Op[0] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.04       0.17 r
+  U36/ZN (OAI211_X1)                       0.04       0.21 f
+  Op[0] (out)                              0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.05       0.17 r
+  U23/ZN (OAI211_X1)                                      0.04       0.20 f
+  Op[3] (out)                                             0.00       0.21 f
+  data arrival time                                                  0.21
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.06       0.17 r
+  U23/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.05       0.17 r
+  U36/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.04       0.17 r
+  U36/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.04       0.17 r
+  U36/ZN (OAI211_X1)                       0.03       0.20 f
+  Op[0] (out)                              0.00       0.20 f
+  data arrival time                                   0.20
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.05       0.17 r
+  U23/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.06       0.17 r
+  U23/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.05       0.17 r
+  U36/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.06       0.16 r
+  U23/ZN (OAI211_X1)                                      0.04       0.20 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[4] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[4] (decoder)       0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.09       0.09 r
+  U40/ZN (INV_X1)                                         0.03       0.13 f
+  U37/ZN (AOI22_X1)                                       0.04       0.17 r
+  U36/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[4]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[4] (in)                        0.00       0.00 f
+  U41/ZN (NOR3_X1)                         0.09       0.09 r
+  U40/ZN (INV_X1)                          0.03       0.13 f
+  U37/ZN (AOI22_X1)                        0.04       0.17 r
+  U36/ZN (OAI211_X1)                       0.03       0.20 f
+  Op[0] (out)                              0.00       0.20 f
+  data arrival time                                   0.20
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.05       0.16 r
+  U36/ZN (OAI211_X1)                                      0.04       0.20 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U24/ZN (AOI22_X1)                                       0.05       0.17 r
+  U23/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.06       0.16 r
+  U23/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.05       0.16 r
+  U36/ZN (OAI211_X1)                                      0.03       0.20 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.06       0.16 r
+  U23/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.05       0.16 r
+  U36/ZN (OAI211_X1)                                      0.04       0.19 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.05       0.16 r
+  U36/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.05       0.16 r
+  U23/ZN (OAI211_X1)                                      0.04       0.19 f
+  Op[3] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.04       0.16 r
+  U36/ZN (OAI211_X1)                                      0.04       0.19 f
+  Op[0] (out)                                             0.00       0.20 f
+  data arrival time                                                  0.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.05       0.16 r
+  U36/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[0] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.05       0.16 r
+  U23/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[3] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.04       0.16 r
+  U36/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[0] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.05       0.16 r
+  U36/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[0] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.05       0.15 r
+  U36/ZN (OAI211_X1)                                      0.04       0.19 f
+  Op[0] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U24/ZN (AOI22_X1)                                       0.05       0.16 r
+  U23/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[3] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[0] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[0] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.08       0.08 r
+  U40/ZN (INV_X1)                                         0.03       0.11 f
+  U37/ZN (AOI22_X1)                                       0.04       0.16 r
+  U36/ZN (OAI211_X1)                                      0.03       0.19 f
+  Op[0] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.05       0.15 r
+  U36/ZN (OAI211_X1)                                      0.03       0.18 f
+  Op[0] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.05       0.15 r
+  U36/ZN (OAI211_X1)                                      0.03       0.18 f
+  Op[0] (out)                                             0.00       0.19 f
+  data arrival time                                                  0.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.04       0.14 r
+  U36/ZN (OAI211_X1)                                      0.04       0.18 f
+  Op[0] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.04       0.14 r
+  U36/ZN (OAI211_X1)                                      0.03       0.18 f
+  Op[0] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[5] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[5] (decoder)       0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.06       0.14 r
+  U36/ZN (OAI211_X1)                                      0.04       0.18 f
+  Op[0] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[5] (in)                        0.00       0.00 f
+  U39/ZN (NOR2_X1)                         0.05       0.05 r
+  U38/ZN (INV_X1)                          0.03       0.08 f
+  U37/ZN (AOI22_X1)                        0.06       0.14 r
+  U36/ZN (OAI211_X1)                       0.04       0.18 f
+  Op[0] (out)                              0.00       0.18 f
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[8] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[8] (decoder)      0.00       0.00 f
+  U41/ZN (NOR3_X1)                                        0.07       0.07 r
+  U40/ZN (INV_X1)                                         0.03       0.10 f
+  U37/ZN (AOI22_X1)                                       0.04       0.14 r
+  U36/ZN (OAI211_X1)                                      0.03       0.18 f
+  Op[0] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[1] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[1] (decoder)      0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.06       0.14 r
+  U36/ZN (OAI211_X1)                                      0.04       0.17 f
+  Op[0] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[5] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[5] (decoder)       0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.06       0.14 r
+  U36/ZN (OAI211_X1)                                      0.03       0.17 f
+  Op[0] (out)                                             0.00       0.18 f
+  data arrival time                                                  0.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[5] (in)                        0.00       0.00 f
+  U39/ZN (NOR2_X1)                         0.05       0.05 r
+  U38/ZN (INV_X1)                          0.03       0.08 f
+  U37/ZN (AOI22_X1)                        0.06       0.14 r
+  U36/ZN (OAI211_X1)                       0.03       0.17 f
+  Op[0] (out)                              0.00       0.18 f
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[5] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[5] (decoder)       0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.06       0.14 r
+  U36/ZN (OAI211_X1)                                      0.03       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[5] (in)                        0.00       0.00 f
+  U39/ZN (NOR2_X1)                         0.05       0.05 r
+  U38/ZN (INV_X1)                          0.03       0.08 f
+  U37/ZN (AOI22_X1)                        0.06       0.14 r
+  U36/ZN (OAI211_X1)                       0.03       0.17 f
+  Op[0] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[5] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[5] (decoder)       0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.05       0.13 r
+  U36/ZN (OAI211_X1)                                      0.04       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[5] (in)                        0.00       0.00 f
+  U39/ZN (NOR2_X1)                         0.05       0.05 r
+  U38/ZN (INV_X1)                          0.03       0.08 f
+  U37/ZN (AOI22_X1)                        0.05       0.13 r
+  U36/ZN (OAI211_X1)                       0.04       0.17 f
+  Op[0] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[1] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[1] (decoder)      0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.06       0.14 r
+  U36/ZN (OAI211_X1)                                      0.03       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[3] (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[3] (decoder)       0.00       0.00 f
+  U33/ZN (OR2_X1)                                         0.06       0.06 f
+  U32/ZN (AOI22_X1)                                       0.06       0.13 r
+  U31/ZN (OAI221_X1)                                      0.04       0.17 f
+  Op[1] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U33/ZN (OR2_X1)                          0.06       0.06 f
+  U32/ZN (AOI22_X1)                        0.06       0.13 r
+  U31/ZN (OAI221_X1)                       0.04       0.17 f
+  Op[1] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[3] (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[3] (decoder)       0.00       0.00 f
+  U33/ZN (OR2_X1)                                         0.06       0.06 f
+  U27/ZN (AOI22_X1)                                       0.06       0.13 r
+  U26/ZN (OAI221_X1)                                      0.04       0.17 f
+  Op[2] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U33/ZN (OR2_X1)                          0.06       0.06 f
+  U27/ZN (AOI22_X1)                        0.06       0.13 r
+  U26/ZN (OAI221_X1)                       0.04       0.17 f
+  Op[2] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[1] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[1] (decoder)      0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.06       0.14 r
+  U36/ZN (OAI211_X1)                                      0.03       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[1] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[1] (decoder)      0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.05       0.13 r
+  U36/ZN (OAI211_X1)                                      0.04       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[5] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[5] (decoder)       0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.05       0.13 r
+  U36/ZN (OAI211_X1)                                      0.03       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[5] (in)                        0.00       0.00 f
+  U39/ZN (NOR2_X1)                         0.05       0.05 r
+  U38/ZN (INV_X1)                          0.03       0.08 f
+  U37/ZN (AOI22_X1)                        0.05       0.13 r
+  U36/ZN (OAI211_X1)                       0.03       0.17 f
+  Op[0] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[5] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[5] (decoder)       0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.05       0.13 r
+  U36/ZN (OAI211_X1)                                      0.03       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[5] (in)                        0.00       0.00 f
+  U39/ZN (NOR2_X1)                         0.05       0.05 r
+  U38/ZN (INV_X1)                          0.03       0.08 f
+  U37/ZN (AOI22_X1)                        0.05       0.13 r
+  U36/ZN (OAI211_X1)                       0.03       0.17 f
+  Op[0] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[5] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[5] (decoder)       0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.05       0.13 r
+  U36/ZN (OAI211_X1)                                      0.04       0.17 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[5] (in)                        0.00       0.00 f
+  U39/ZN (NOR2_X1)                         0.05       0.05 r
+  U38/ZN (INV_X1)                          0.03       0.08 f
+  U37/ZN (AOI22_X1)                        0.05       0.13 r
+  U36/ZN (OAI211_X1)                       0.04       0.17 f
+  Op[0] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[3] (internal pin)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[3] (decoder)       0.00       0.00 f
+  U33/ZN (OR2_X1)                                         0.06       0.06 f
+  U32/ZN (AOI22_X1)                                       0.06       0.13 r
+  U31/ZN (OAI221_X1)                                      0.04       0.16 f
+  Op[1] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U33/ZN (OR2_X1)                          0.06       0.06 f
+  U32/ZN (AOI22_X1)                        0.06       0.13 r
+  U31/ZN (OAI221_X1)                       0.04       0.16 f
+  Op[1] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/binary_shift[3] (internal pin)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/binary_shift[3] (decoder)       0.00       0.00 f
+  U33/ZN (OR2_X1)                                         0.06       0.06 f
+  U27/ZN (AOI22_X1)                                       0.06       0.13 r
+  U26/ZN (OAI221_X1)                                      0.04       0.16 f
+  Op[2] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U33/ZN (OR2_X1)                          0.06       0.06 f
+  U27/ZN (AOI22_X1)                        0.06       0.13 r
+  U26/ZN (OAI221_X1)                       0.04       0.16 f
+  Op[2] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: genblk1_binary_2_OneHot/one_hot_shift[1] (internal pin)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  genblk1_binary_2_OneHot/one_hot_shift[1] (decoder)      0.00       0.00 f
+  U39/ZN (NOR2_X1)                                        0.05       0.05 r
+  U38/ZN (INV_X1)                                         0.03       0.08 f
+  U37/ZN (AOI22_X1)                                       0.05       0.13 r
+  U36/ZN (OAI211_X1)                                      0.03       0.16 f
+  Op[0] (out)                                             0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[3]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  shift_mag[3] (in)                        0.00       0.00 f
+  U33/ZN (OR2_X1)                          0.06       0.06 f
+  U32/ZN (AOI22_X1)                        0.06       0.12 r
+  U31/ZN (OAI221_X1)                       0.04       0.16 f
+  Op[1] (out)                              0.00       0.17 f
+  data arrival time                                   0.17
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

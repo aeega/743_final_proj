@@ -1,0 +1,109 @@
+ 
+****************************************
+Report : area
+Design : barrelShifter
+Version: P-2019.03
+Date   : Tue Apr 26 23:30:02 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                          676
+Number of nets:                          2291
+Number of cells:                         1749
+Number of combinational cells:           1682
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        328
+Number of references:                      90
+
+Combinational area:               2047.136017
+Buf/Inv area:                      180.880001
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  2047.136017
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------
+barrelShifter                     2047.1360    100.0  1599.7240     0.0000  0.0000  barrelShifter
+genblk1_OneHot_2_binary            299.7820     14.6   299.7820     0.0000  0.0000  encoder_MAX_SHIFT_MAG64
+genblk2_layer_1_0__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_63
+genblk2_layer_1_10__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_53
+genblk2_layer_1_11__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_52
+genblk2_layer_1_12__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_51
+genblk2_layer_1_13__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_50
+genblk2_layer_1_14__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_49
+genblk2_layer_1_15__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_48
+genblk2_layer_1_16__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_47
+genblk2_layer_1_17__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_46
+genblk2_layer_1_18__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_45
+genblk2_layer_1_19__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_44
+genblk2_layer_1_1__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_62
+genblk2_layer_1_20__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_43
+genblk2_layer_1_21__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_42
+genblk2_layer_1_22__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_41
+genblk2_layer_1_23__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_40
+genblk2_layer_1_24__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_39
+genblk2_layer_1_25__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_38
+genblk2_layer_1_26__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_37
+genblk2_layer_1_27__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_36
+genblk2_layer_1_28__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_35
+genblk2_layer_1_29__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_34
+genblk2_layer_1_2__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_61
+genblk2_layer_1_30__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_33
+genblk2_layer_1_31__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_32
+genblk2_layer_1_32__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_31
+genblk2_layer_1_33__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_30
+genblk2_layer_1_34__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_29
+genblk2_layer_1_35__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_28
+genblk2_layer_1_36__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_27
+genblk2_layer_1_37__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_26
+genblk2_layer_1_38__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_25
+genblk2_layer_1_39__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_24
+genblk2_layer_1_3__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_60
+genblk2_layer_1_40__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_23
+genblk2_layer_1_41__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_22
+genblk2_layer_1_42__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_21
+genblk2_layer_1_43__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_20
+genblk2_layer_1_44__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_19
+genblk2_layer_1_45__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_18
+genblk2_layer_1_46__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_17
+genblk2_layer_1_47__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_16
+genblk2_layer_1_48__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_15
+genblk2_layer_1_49__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_14
+genblk2_layer_1_4__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_59
+genblk2_layer_1_50__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_13
+genblk2_layer_1_51__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_12
+genblk2_layer_1_52__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_11
+genblk2_layer_1_53__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_10
+genblk2_layer_1_54__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_9
+genblk2_layer_1_55__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_8
+genblk2_layer_1_56__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_7
+genblk2_layer_1_57__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_6
+genblk2_layer_1_58__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_5
+genblk2_layer_1_59__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_4
+genblk2_layer_1_5__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_58
+genblk2_layer_1_60__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_3
+genblk2_layer_1_61__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_2
+genblk2_layer_1_62__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_1
+genblk2_layer_1_63__m1_layer         1.8620      0.1     1.8620     0.0000  0.0000  MUX2_0
+genblk2_layer_1_6__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_57
+genblk2_layer_1_7__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_56
+genblk2_layer_1_8__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_55
+genblk2_layer_1_9__m1_layer          1.8620      0.1     1.8620     0.0000  0.0000  MUX2_54
+r429                                28.4620      1.4    28.4620     0.0000  0.0000  barrelShifter_DW01_sub_1
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------
+Total                                                 2047.1360     0.0000  0.0000
+
+1

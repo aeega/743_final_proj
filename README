@@ -27,5 +27,12 @@ To get PPA results
 *******************
 
     sh get_ppa_results.sh {number} {shifter_module_name}
-    Example: sh get_ppa_results.sh 5 combShifter
+
+    The above command run for input lengths 2^{number} with power of 2 for the {shifter_module_name} given.
+    The synthesis is triggered thrice one with maximum shift magnitude = one, center, maximum input lengths given.
+
+    Example: << sh get_ppa_results.sh 5 barrelShifter >>  # runs until LEN = 32 , MAX_SHIFT_MAG -> MIN =1, MID = LEN/2, MAX = LEN 
+    Example: << sh get_ppa_results.sh 6 regShifter    >>  # runs until LEN = 64 , MAX_SHIFT_MAG -> MIN =1, MID = LEN/2, MAX = LEN
+    Example: << sh get_ppa_results.sh 3 combShifter   >>  # runs until LEN = 8  , MAX_SHIFT_MAG -> MIN =1, MID = LEN/2, MAX = LEN
+    Example: << sh get_ppa_results.sh 7 tranShifter   >>  # runs until LEN = 128, MAX_SHIFT_MAG -> MIN =1, MID = LEN/2, MAX = LEN
 

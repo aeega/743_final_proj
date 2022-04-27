@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : area
+Design : barrelShifter
+Version: P-2019.03
+Date   : Tue Apr 26 22:13:08 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                          113
+Number of nets:                           310
+Number of cells:                          241
+Number of combinational cells:            225
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         42
+Number of references:                      35
+
+Combinational area:                293.930000
+Buf/Inv area:                       22.344000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   293.930000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+barrelShifter                      293.9300    100.0  264.1380     0.0000  0.0000  barrelShifter
+genblk2_layer_1_0__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_15
+genblk2_layer_1_10__m1_layer         1.8620      0.6    1.8620     0.0000  0.0000  MUX2_5
+genblk2_layer_1_11__m1_layer         1.8620      0.6    1.8620     0.0000  0.0000  MUX2_4
+genblk2_layer_1_12__m1_layer         1.8620      0.6    1.8620     0.0000  0.0000  MUX2_3
+genblk2_layer_1_13__m1_layer         1.8620      0.6    1.8620     0.0000  0.0000  MUX2_2
+genblk2_layer_1_14__m1_layer         1.8620      0.6    1.8620     0.0000  0.0000  MUX2_1
+genblk2_layer_1_15__m1_layer         1.8620      0.6    1.8620     0.0000  0.0000  MUX2_0
+genblk2_layer_1_1__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_14
+genblk2_layer_1_2__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_13
+genblk2_layer_1_3__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_12
+genblk2_layer_1_4__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_11
+genblk2_layer_1_5__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_10
+genblk2_layer_1_6__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_9
+genblk2_layer_1_7__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_8
+genblk2_layer_1_8__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_7
+genblk2_layer_1_9__m1_layer          1.8620      0.6    1.8620     0.0000  0.0000  MUX2_6
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 293.9300     0.0000  0.0000
+
+1

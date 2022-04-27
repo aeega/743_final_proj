@@ -1,0 +1,71 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "test_shifter": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "custom_tgate": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 7622,
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 34979,
+            "mode": 4,
+            "archive": "archive.0/_37303_archive_1.a",
+            "checksum": 4294967295
+        },
+        "YNP2y_d": {
+            "mod": "test_shifter",
+            "out": "YNP2y_d.o",
+            "bytes": 22430,
+            "mode": 4,
+            "archive": "archive.0/_37303_archive_1.a",
+            "checksum": 4294967295
+        },
+        "jGv70_d": {
+            "mod": "custom_tgate",
+            "out": "jGv70_d.o",
+            "bytes": 8347,
+            "mode": 4,
+            "archive": "archive.0/_37303_archive_1.a",
+            "checksum": 4294967295
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_37303_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    34979
+                ],
+                [
+                    "YNP2y_d.o",
+                    22430
+                ],
+                [
+                    "jGv70_d.o",
+                    8347
+                ]
+            ],
+            "size": 65756
+        }
+    ],
+    "reusePaths": {}
+}

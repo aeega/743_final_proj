@@ -1,0 +1,2716 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 100
+Design : combShifter
+Version: P-2019.03
+Date   : Tue Apr 26 22:45:48 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[57] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14459/ZN (OAI22_X1)                     0.07       0.44 f
+  U14458/ZN (AOI221_X1)                    0.09       0.53 r
+  U14457/ZN (NAND4_X1)                     0.05       0.58 f
+  U14456/ZN (NOR4_X1)                      0.10       0.67 r
+  U14455/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[57] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[55] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14609/ZN (OAI22_X1)                     0.07       0.44 f
+  U14608/ZN (AOI221_X1)                    0.09       0.53 r
+  U14607/ZN (NAND4_X1)                     0.05       0.58 f
+  U14606/ZN (NOR4_X1)                      0.10       0.67 r
+  U14605/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[55] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[56] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14534/ZN (OAI22_X1)                     0.07       0.44 f
+  U14533/ZN (AOI221_X1)                    0.09       0.53 r
+  U14532/ZN (NAND4_X1)                     0.05       0.58 f
+  U14531/ZN (NOR4_X1)                      0.10       0.67 r
+  U14530/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[56] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[51] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14909/ZN (OAI22_X1)                     0.07       0.44 f
+  U14908/ZN (AOI221_X1)                    0.09       0.53 r
+  U14907/ZN (NAND4_X1)                     0.05       0.58 f
+  U14906/ZN (NOR4_X1)                      0.10       0.67 r
+  U14905/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[51] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[52] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14834/ZN (OAI22_X1)                     0.07       0.44 f
+  U14833/ZN (AOI221_X1)                    0.09       0.53 r
+  U14832/ZN (NAND4_X1)                     0.05       0.58 f
+  U14831/ZN (NOR4_X1)                      0.10       0.67 r
+  U14830/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[52] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[59] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14309/ZN (OAI22_X1)                     0.07       0.44 f
+  U14308/ZN (AOI221_X1)                    0.09       0.53 r
+  U14307/ZN (NAND4_X1)                     0.05       0.58 f
+  U14306/ZN (NOR4_X1)                      0.10       0.67 r
+  U14305/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[59] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13934/ZN (OAI22_X1)                     0.07       0.44 f
+  U13933/ZN (AOI221_X1)                    0.09       0.53 r
+  U13932/ZN (NAND4_X1)                     0.05       0.58 f
+  U13931/ZN (NOR4_X1)                      0.10       0.67 r
+  U13930/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[63] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[40] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15809/ZN (OAI22_X1)                     0.07       0.44 f
+  U15808/ZN (AOI221_X1)                    0.09       0.53 r
+  U15807/ZN (NAND4_X1)                     0.05       0.58 f
+  U15806/ZN (NOR4_X1)                      0.10       0.67 r
+  U15805/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[40] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[42] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15659/ZN (OAI22_X1)                     0.07       0.44 f
+  U15658/ZN (AOI221_X1)                    0.09       0.53 r
+  U15657/ZN (NAND4_X1)                     0.05       0.58 f
+  U15656/ZN (NOR4_X1)                      0.10       0.67 r
+  U15655/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[42] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[44] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15509/ZN (OAI22_X1)                     0.07       0.44 f
+  U15508/ZN (AOI221_X1)                    0.09       0.53 r
+  U15507/ZN (NAND4_X1)                     0.05       0.58 f
+  U15506/ZN (NOR4_X1)                      0.10       0.67 r
+  U15505/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[44] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[46] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15359/ZN (OAI22_X1)                     0.07       0.44 f
+  U15358/ZN (AOI221_X1)                    0.09       0.53 r
+  U15357/ZN (NAND4_X1)                     0.05       0.58 f
+  U15356/ZN (NOR4_X1)                      0.10       0.67 r
+  U15355/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[46] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[53] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14759/ZN (OAI22_X1)                     0.07       0.44 f
+  U14758/ZN (AOI221_X1)                    0.09       0.53 r
+  U14757/ZN (NAND4_X1)                     0.05       0.58 f
+  U14756/ZN (NOR4_X1)                      0.10       0.67 r
+  U14755/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[53] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[43] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15584/ZN (OAI22_X1)                     0.07       0.44 f
+  U15583/ZN (AOI221_X1)                    0.09       0.53 r
+  U15582/ZN (NAND4_X1)                     0.05       0.58 f
+  U15581/ZN (NOR4_X1)                      0.10       0.67 r
+  U15580/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[43] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[37] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U16109/ZN (OAI22_X1)                     0.07       0.44 f
+  U16108/ZN (AOI221_X1)                    0.09       0.53 r
+  U16107/ZN (NAND4_X1)                     0.05       0.58 f
+  U16106/ZN (NOR4_X1)                      0.10       0.67 r
+  U16105/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[37] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[60] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14159/ZN (OAI22_X1)                     0.07       0.44 f
+  U14158/ZN (AOI221_X1)                    0.09       0.53 r
+  U14157/ZN (NAND4_X1)                     0.05       0.58 f
+  U14156/ZN (NOR4_X1)                      0.10       0.67 r
+  U14155/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[60] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[48] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15209/ZN (OAI22_X1)                     0.07       0.44 f
+  U15208/ZN (AOI221_X1)                    0.09       0.53 r
+  U15207/ZN (NAND4_X1)                     0.05       0.58 f
+  U15206/ZN (NOR4_X1)                      0.10       0.67 r
+  U15205/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[48] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[47] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15284/ZN (OAI22_X1)                     0.07       0.44 f
+  U15283/ZN (AOI221_X1)                    0.09       0.53 r
+  U15282/ZN (NAND4_X1)                     0.05       0.58 f
+  U15281/ZN (NOR4_X1)                      0.10       0.67 r
+  U15280/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[47] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[49] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15134/ZN (OAI22_X1)                     0.07       0.44 f
+  U15133/ZN (AOI221_X1)                    0.09       0.53 r
+  U15132/ZN (NAND4_X1)                     0.05       0.58 f
+  U15131/ZN (NOR4_X1)                      0.10       0.67 r
+  U15130/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[49] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[65] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13784/ZN (OAI22_X1)                     0.07       0.44 f
+  U13783/ZN (AOI221_X1)                    0.09       0.53 r
+  U13782/ZN (NAND4_X1)                     0.05       0.58 f
+  U13781/ZN (NOR4_X1)                      0.10       0.67 r
+  U13780/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[65] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[58] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14384/ZN (OAI22_X1)                     0.07       0.44 f
+  U14383/ZN (AOI221_X1)                    0.09       0.53 r
+  U14382/ZN (NAND4_X1)                     0.05       0.58 f
+  U14381/ZN (NOR4_X1)                      0.10       0.67 r
+  U14380/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[58] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[64] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13859/ZN (OAI22_X1)                     0.07       0.44 f
+  U13858/ZN (AOI221_X1)                    0.09       0.53 r
+  U13857/ZN (NAND4_X1)                     0.05       0.58 f
+  U13856/ZN (NOR4_X1)                      0.10       0.67 r
+  U13855/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[64] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[61] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14084/ZN (OAI22_X1)                     0.07       0.44 f
+  U14083/ZN (AOI221_X1)                    0.09       0.53 r
+  U14082/ZN (NAND4_X1)                     0.05       0.58 f
+  U14081/ZN (NOR4_X1)                      0.10       0.67 r
+  U14080/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[61] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[45] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15434/ZN (OAI22_X1)                     0.07       0.44 f
+  U15433/ZN (AOI221_X1)                    0.09       0.53 r
+  U15432/ZN (NAND4_X1)                     0.05       0.58 f
+  U15431/ZN (NOR4_X1)                      0.10       0.67 r
+  U15430/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[45] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[41] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15734/ZN (OAI22_X1)                     0.07       0.44 f
+  U15733/ZN (AOI221_X1)                    0.09       0.53 r
+  U15732/ZN (NAND4_X1)                     0.05       0.58 f
+  U15731/ZN (NOR4_X1)                      0.10       0.67 r
+  U15730/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[41] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[38] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U16034/ZN (OAI22_X1)                     0.07       0.44 f
+  U16033/ZN (AOI221_X1)                    0.09       0.53 r
+  U16032/ZN (NAND4_X1)                     0.05       0.58 f
+  U16031/ZN (NOR4_X1)                      0.10       0.67 r
+  U16030/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[38] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[50] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14984/ZN (OAI22_X1)                     0.07       0.44 f
+  U14983/ZN (AOI221_X1)                    0.09       0.53 r
+  U14982/ZN (NAND4_X1)                     0.05       0.58 f
+  U14981/ZN (NOR4_X1)                      0.10       0.67 r
+  U14980/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[50] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[54] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14684/ZN (OAI22_X1)                     0.07       0.44 f
+  U14683/ZN (AOI221_X1)                    0.09       0.53 r
+  U14682/ZN (NAND4_X1)                     0.05       0.58 f
+  U14681/ZN (NOR4_X1)                      0.10       0.67 r
+  U14680/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[54] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[62] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14009/ZN (OAI22_X1)                     0.07       0.44 f
+  U14008/ZN (AOI221_X1)                    0.09       0.53 r
+  U14007/ZN (NAND4_X1)                     0.05       0.58 f
+  U14006/ZN (NOR4_X1)                      0.10       0.67 r
+  U14005/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[62] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[39] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15959/ZN (OAI22_X1)                     0.07       0.44 f
+  U15958/ZN (AOI221_X1)                    0.09       0.53 r
+  U15957/ZN (NAND4_X1)                     0.05       0.58 f
+  U15956/ZN (NOR4_X1)                      0.10       0.67 r
+  U15955/ZN (NAND2_X1)                     0.03       0.70 f
+  Op[39] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[84] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12209/ZN (OAI22_X1)                     0.07       0.43 f
+  U12208/ZN (AOI221_X1)                    0.09       0.52 r
+  U12207/ZN (NAND4_X1)                     0.05       0.57 f
+  U12206/ZN (NOR4_X1)                      0.10       0.67 r
+  U12205/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[84] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[74] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13034/ZN (OAI22_X1)                     0.07       0.43 f
+  U13033/ZN (AOI221_X1)                    0.09       0.52 r
+  U13032/ZN (NAND4_X1)                     0.05       0.57 f
+  U13031/ZN (NOR4_X1)                      0.10       0.67 r
+  U13030/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[74] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[90] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U11684/ZN (OAI22_X1)                     0.07       0.43 f
+  U11683/ZN (AOI221_X1)                    0.09       0.52 r
+  U11682/ZN (NAND4_X1)                     0.05       0.57 f
+  U11681/ZN (NOR4_X1)                      0.10       0.67 r
+  U11680/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[90] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[89] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U11834/ZN (OAI22_X1)                     0.07       0.43 f
+  U11833/ZN (AOI221_X1)                    0.09       0.52 r
+  U11832/ZN (NAND4_X1)                     0.05       0.57 f
+  U11831/ZN (NOR4_X1)                      0.10       0.67 r
+  U11830/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[89] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[85] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12134/ZN (OAI22_X1)                     0.07       0.43 f
+  U12133/ZN (AOI221_X1)                    0.09       0.52 r
+  U12132/ZN (NAND4_X1)                     0.05       0.57 f
+  U12131/ZN (NOR4_X1)                      0.10       0.67 r
+  U12130/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[85] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[79] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12659/ZN (OAI22_X1)                     0.07       0.43 f
+  U12658/ZN (AOI221_X1)                    0.09       0.52 r
+  U12657/ZN (NAND4_X1)                     0.05       0.57 f
+  U12656/ZN (NOR4_X1)                      0.10       0.67 r
+  U12655/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[79] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[80] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12509/ZN (OAI22_X1)                     0.07       0.43 f
+  U12508/ZN (AOI221_X1)                    0.09       0.52 r
+  U12507/ZN (NAND4_X1)                     0.05       0.57 f
+  U12506/ZN (NOR4_X1)                      0.10       0.67 r
+  U12505/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[80] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[82] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12359/ZN (OAI22_X1)                     0.07       0.43 f
+  U12358/ZN (AOI221_X1)                    0.09       0.52 r
+  U12357/ZN (NAND4_X1)                     0.05       0.57 f
+  U12356/ZN (NOR4_X1)                      0.10       0.67 r
+  U12355/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[82] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[86] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12059/ZN (OAI22_X1)                     0.07       0.43 f
+  U12058/ZN (AOI221_X1)                    0.09       0.52 r
+  U12057/ZN (NAND4_X1)                     0.05       0.57 f
+  U12056/ZN (NOR4_X1)                      0.10       0.67 r
+  U12055/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[86] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[88] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U11909/ZN (OAI22_X1)                     0.07       0.43 f
+  U11908/ZN (AOI221_X1)                    0.09       0.52 r
+  U11907/ZN (NAND4_X1)                     0.05       0.57 f
+  U11906/ZN (NOR4_X1)                      0.10       0.67 r
+  U11905/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[88] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[78] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12734/ZN (OAI22_X1)                     0.07       0.43 f
+  U12733/ZN (AOI221_X1)                    0.09       0.52 r
+  U12732/ZN (NAND4_X1)                     0.05       0.57 f
+  U12731/ZN (NOR4_X1)                      0.10       0.67 r
+  U12730/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[78] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[76] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12884/ZN (OAI22_X1)                     0.07       0.43 f
+  U12883/ZN (AOI221_X1)                    0.09       0.52 r
+  U12882/ZN (NAND4_X1)                     0.05       0.57 f
+  U12881/ZN (NOR4_X1)                      0.10       0.67 r
+  U12880/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[76] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[77] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12809/ZN (OAI22_X1)                     0.07       0.43 f
+  U12808/ZN (AOI221_X1)                    0.09       0.52 r
+  U12807/ZN (NAND4_X1)                     0.05       0.57 f
+  U12806/ZN (NOR4_X1)                      0.10       0.67 r
+  U12805/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[77] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[92] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U11534/ZN (OAI22_X1)                     0.07       0.43 f
+  U11533/ZN (AOI221_X1)                    0.09       0.52 r
+  U11532/ZN (NAND4_X1)                     0.05       0.57 f
+  U11531/ZN (NOR4_X1)                      0.10       0.67 r
+  U11530/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[92] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[75] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12959/ZN (OAI22_X1)                     0.07       0.43 f
+  U12958/ZN (AOI221_X1)                    0.09       0.52 r
+  U12957/ZN (NAND4_X1)                     0.05       0.57 f
+  U12956/ZN (NOR4_X1)                      0.10       0.67 r
+  U12955/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[75] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[81] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12434/ZN (OAI22_X1)                     0.07       0.43 f
+  U12433/ZN (AOI221_X1)                    0.09       0.52 r
+  U12432/ZN (NAND4_X1)                     0.05       0.57 f
+  U12431/ZN (NOR4_X1)                      0.10       0.67 r
+  U12430/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[81] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[83] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U12284/ZN (OAI22_X1)                     0.07       0.43 f
+  U12283/ZN (AOI221_X1)                    0.09       0.52 r
+  U12282/ZN (NAND4_X1)                     0.05       0.57 f
+  U12281/ZN (NOR4_X1)                      0.10       0.67 r
+  U12280/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[83] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[87] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U11984/ZN (OAI22_X1)                     0.07       0.43 f
+  U11983/ZN (AOI221_X1)                    0.09       0.52 r
+  U11982/ZN (NAND4_X1)                     0.05       0.57 f
+  U11981/ZN (NOR4_X1)                      0.10       0.67 r
+  U11980/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[87] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[36] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U16184/ZN (OAI22_X1)                     0.07       0.43 f
+  U16183/ZN (AOI221_X1)                    0.09       0.52 r
+  U16182/ZN (NAND4_X1)                     0.05       0.57 f
+  U16181/ZN (NOR4_X1)                      0.10       0.67 r
+  U16180/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[36] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[91] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U11609/ZN (OAI22_X1)                     0.07       0.43 f
+  U11608/ZN (AOI221_X1)                    0.09       0.52 r
+  U11607/ZN (NAND4_X1)                     0.05       0.57 f
+  U11606/ZN (NOR4_X1)                      0.10       0.67 r
+  U11605/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[91] (out)                             0.00       0.70 f
+  data arrival time                                   0.70
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[57] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14459/ZN (OAI22_X1)                     0.07       0.43 f
+  U14458/ZN (AOI221_X1)                    0.09       0.52 r
+  U14457/ZN (NAND4_X1)                     0.05       0.57 f
+  U14456/ZN (NOR4_X1)                      0.10       0.67 r
+  U14455/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[57] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[55] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14609/ZN (OAI22_X1)                     0.07       0.43 f
+  U14608/ZN (AOI221_X1)                    0.09       0.52 r
+  U14607/ZN (NAND4_X1)                     0.05       0.57 f
+  U14606/ZN (NOR4_X1)                      0.10       0.67 r
+  U14605/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[55] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[56] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14534/ZN (OAI22_X1)                     0.07       0.43 f
+  U14533/ZN (AOI221_X1)                    0.09       0.52 r
+  U14532/ZN (NAND4_X1)                     0.05       0.57 f
+  U14531/ZN (NOR4_X1)                      0.10       0.67 r
+  U14530/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[56] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[51] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14909/ZN (OAI22_X1)                     0.07       0.43 f
+  U14908/ZN (AOI221_X1)                    0.09       0.52 r
+  U14907/ZN (NAND4_X1)                     0.05       0.57 f
+  U14906/ZN (NOR4_X1)                      0.10       0.67 r
+  U14905/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[51] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[52] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14834/ZN (OAI22_X1)                     0.07       0.43 f
+  U14833/ZN (AOI221_X1)                    0.09       0.52 r
+  U14832/ZN (NAND4_X1)                     0.05       0.57 f
+  U14831/ZN (NOR4_X1)                      0.10       0.67 r
+  U14830/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[52] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[59] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14309/ZN (OAI22_X1)                     0.07       0.43 f
+  U14308/ZN (AOI221_X1)                    0.09       0.52 r
+  U14307/ZN (NAND4_X1)                     0.05       0.57 f
+  U14306/ZN (NOR4_X1)                      0.10       0.67 r
+  U14305/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[59] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13934/ZN (OAI22_X1)                     0.07       0.43 f
+  U13933/ZN (AOI221_X1)                    0.09       0.52 r
+  U13932/ZN (NAND4_X1)                     0.05       0.57 f
+  U13931/ZN (NOR4_X1)                      0.10       0.67 r
+  U13930/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[63] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[40] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15809/ZN (OAI22_X1)                     0.07       0.43 f
+  U15808/ZN (AOI221_X1)                    0.09       0.52 r
+  U15807/ZN (NAND4_X1)                     0.05       0.57 f
+  U15806/ZN (NOR4_X1)                      0.10       0.67 r
+  U15805/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[40] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[42] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15659/ZN (OAI22_X1)                     0.07       0.43 f
+  U15658/ZN (AOI221_X1)                    0.09       0.52 r
+  U15657/ZN (NAND4_X1)                     0.05       0.57 f
+  U15656/ZN (NOR4_X1)                      0.10       0.67 r
+  U15655/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[42] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[44] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15509/ZN (OAI22_X1)                     0.07       0.43 f
+  U15508/ZN (AOI221_X1)                    0.09       0.52 r
+  U15507/ZN (NAND4_X1)                     0.05       0.57 f
+  U15506/ZN (NOR4_X1)                      0.10       0.67 r
+  U15505/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[44] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[46] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15359/ZN (OAI22_X1)                     0.07       0.43 f
+  U15358/ZN (AOI221_X1)                    0.09       0.52 r
+  U15357/ZN (NAND4_X1)                     0.05       0.57 f
+  U15356/ZN (NOR4_X1)                      0.10       0.67 r
+  U15355/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[46] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[53] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14759/ZN (OAI22_X1)                     0.07       0.43 f
+  U14758/ZN (AOI221_X1)                    0.09       0.52 r
+  U14757/ZN (NAND4_X1)                     0.05       0.57 f
+  U14756/ZN (NOR4_X1)                      0.10       0.67 r
+  U14755/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[53] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[43] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15584/ZN (OAI22_X1)                     0.07       0.43 f
+  U15583/ZN (AOI221_X1)                    0.09       0.52 r
+  U15582/ZN (NAND4_X1)                     0.05       0.57 f
+  U15581/ZN (NOR4_X1)                      0.10       0.67 r
+  U15580/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[43] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[37] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U16109/ZN (OAI22_X1)                     0.07       0.43 f
+  U16108/ZN (AOI221_X1)                    0.09       0.52 r
+  U16107/ZN (NAND4_X1)                     0.05       0.57 f
+  U16106/ZN (NOR4_X1)                      0.10       0.67 r
+  U16105/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[37] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[60] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14159/ZN (OAI22_X1)                     0.07       0.43 f
+  U14158/ZN (AOI221_X1)                    0.09       0.52 r
+  U14157/ZN (NAND4_X1)                     0.05       0.57 f
+  U14156/ZN (NOR4_X1)                      0.10       0.67 r
+  U14155/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[60] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[48] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15209/ZN (OAI22_X1)                     0.07       0.43 f
+  U15208/ZN (AOI221_X1)                    0.09       0.52 r
+  U15207/ZN (NAND4_X1)                     0.05       0.57 f
+  U15206/ZN (NOR4_X1)                      0.10       0.67 r
+  U15205/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[48] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[47] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15284/ZN (OAI22_X1)                     0.07       0.43 f
+  U15283/ZN (AOI221_X1)                    0.09       0.52 r
+  U15282/ZN (NAND4_X1)                     0.05       0.57 f
+  U15281/ZN (NOR4_X1)                      0.10       0.67 r
+  U15280/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[47] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[49] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15134/ZN (OAI22_X1)                     0.07       0.43 f
+  U15133/ZN (AOI221_X1)                    0.09       0.52 r
+  U15132/ZN (NAND4_X1)                     0.05       0.57 f
+  U15131/ZN (NOR4_X1)                      0.10       0.67 r
+  U15130/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[49] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[65] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13784/ZN (OAI22_X1)                     0.07       0.43 f
+  U13783/ZN (AOI221_X1)                    0.09       0.52 r
+  U13782/ZN (NAND4_X1)                     0.05       0.57 f
+  U13781/ZN (NOR4_X1)                      0.10       0.67 r
+  U13780/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[65] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[58] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14384/ZN (OAI22_X1)                     0.07       0.43 f
+  U14383/ZN (AOI221_X1)                    0.09       0.52 r
+  U14382/ZN (NAND4_X1)                     0.05       0.57 f
+  U14381/ZN (NOR4_X1)                      0.10       0.67 r
+  U14380/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[58] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[64] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13859/ZN (OAI22_X1)                     0.07       0.43 f
+  U13858/ZN (AOI221_X1)                    0.09       0.52 r
+  U13857/ZN (NAND4_X1)                     0.05       0.57 f
+  U13856/ZN (NOR4_X1)                      0.10       0.67 r
+  U13855/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[64] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[61] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14084/ZN (OAI22_X1)                     0.07       0.43 f
+  U14083/ZN (AOI221_X1)                    0.09       0.52 r
+  U14082/ZN (NAND4_X1)                     0.05       0.57 f
+  U14081/ZN (NOR4_X1)                      0.10       0.67 r
+  U14080/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[61] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[45] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15434/ZN (OAI22_X1)                     0.07       0.43 f
+  U15433/ZN (AOI221_X1)                    0.09       0.52 r
+  U15432/ZN (NAND4_X1)                     0.05       0.57 f
+  U15431/ZN (NOR4_X1)                      0.10       0.67 r
+  U15430/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[45] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[41] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15734/ZN (OAI22_X1)                     0.07       0.43 f
+  U15733/ZN (AOI221_X1)                    0.09       0.52 r
+  U15732/ZN (NAND4_X1)                     0.05       0.57 f
+  U15731/ZN (NOR4_X1)                      0.10       0.67 r
+  U15730/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[41] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[38] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U16034/ZN (OAI22_X1)                     0.07       0.43 f
+  U16033/ZN (AOI221_X1)                    0.09       0.52 r
+  U16032/ZN (NAND4_X1)                     0.05       0.57 f
+  U16031/ZN (NOR4_X1)                      0.10       0.67 r
+  U16030/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[38] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[50] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14984/ZN (OAI22_X1)                     0.07       0.43 f
+  U14983/ZN (AOI221_X1)                    0.09       0.52 r
+  U14982/ZN (NAND4_X1)                     0.05       0.57 f
+  U14981/ZN (NOR4_X1)                      0.10       0.67 r
+  U14980/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[50] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[54] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14684/ZN (OAI22_X1)                     0.07       0.43 f
+  U14683/ZN (AOI221_X1)                    0.09       0.52 r
+  U14682/ZN (NAND4_X1)                     0.05       0.57 f
+  U14681/ZN (NOR4_X1)                      0.10       0.67 r
+  U14680/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[54] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[62] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14009/ZN (OAI22_X1)                     0.07       0.43 f
+  U14008/ZN (AOI221_X1)                    0.09       0.52 r
+  U14007/ZN (NAND4_X1)                     0.05       0.57 f
+  U14006/ZN (NOR4_X1)                      0.10       0.67 r
+  U14005/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[62] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[39] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15959/ZN (OAI22_X1)                     0.07       0.43 f
+  U15958/ZN (AOI221_X1)                    0.09       0.52 r
+  U15957/ZN (NAND4_X1)                     0.05       0.57 f
+  U15956/ZN (NOR4_X1)                      0.10       0.67 r
+  U15955/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[39] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[57] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14459/ZN (OAI22_X1)                     0.07       0.44 f
+  U14458/ZN (AOI221_X1)                    0.08       0.52 r
+  U14457/ZN (NAND4_X1)                     0.05       0.57 f
+  U14456/ZN (NOR4_X1)                      0.10       0.67 r
+  U14455/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[57] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[55] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14609/ZN (OAI22_X1)                     0.07       0.44 f
+  U14608/ZN (AOI221_X1)                    0.08       0.52 r
+  U14607/ZN (NAND4_X1)                     0.05       0.57 f
+  U14606/ZN (NOR4_X1)                      0.10       0.67 r
+  U14605/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[55] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[56] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14534/ZN (OAI22_X1)                     0.07       0.44 f
+  U14533/ZN (AOI221_X1)                    0.08       0.52 r
+  U14532/ZN (NAND4_X1)                     0.05       0.57 f
+  U14531/ZN (NOR4_X1)                      0.10       0.67 r
+  U14530/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[56] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[51] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14909/ZN (OAI22_X1)                     0.07       0.44 f
+  U14908/ZN (AOI221_X1)                    0.08       0.52 r
+  U14907/ZN (NAND4_X1)                     0.05       0.57 f
+  U14906/ZN (NOR4_X1)                      0.10       0.67 r
+  U14905/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[51] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[52] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14834/ZN (OAI22_X1)                     0.07       0.44 f
+  U14833/ZN (AOI221_X1)                    0.08       0.52 r
+  U14832/ZN (NAND4_X1)                     0.05       0.57 f
+  U14831/ZN (NOR4_X1)                      0.10       0.67 r
+  U14830/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[52] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[59] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14309/ZN (OAI22_X1)                     0.07       0.44 f
+  U14308/ZN (AOI221_X1)                    0.08       0.52 r
+  U14307/ZN (NAND4_X1)                     0.05       0.57 f
+  U14306/ZN (NOR4_X1)                      0.10       0.67 r
+  U14305/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[59] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13934/ZN (OAI22_X1)                     0.07       0.44 f
+  U13933/ZN (AOI221_X1)                    0.08       0.52 r
+  U13932/ZN (NAND4_X1)                     0.05       0.57 f
+  U13931/ZN (NOR4_X1)                      0.10       0.67 r
+  U13930/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[63] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[40] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15809/ZN (OAI22_X1)                     0.07       0.44 f
+  U15808/ZN (AOI221_X1)                    0.08       0.52 r
+  U15807/ZN (NAND4_X1)                     0.05       0.57 f
+  U15806/ZN (NOR4_X1)                      0.10       0.67 r
+  U15805/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[40] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[42] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15659/ZN (OAI22_X1)                     0.07       0.44 f
+  U15658/ZN (AOI221_X1)                    0.08       0.52 r
+  U15657/ZN (NAND4_X1)                     0.05       0.57 f
+  U15656/ZN (NOR4_X1)                      0.10       0.67 r
+  U15655/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[42] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[44] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15509/ZN (OAI22_X1)                     0.07       0.44 f
+  U15508/ZN (AOI221_X1)                    0.08       0.52 r
+  U15507/ZN (NAND4_X1)                     0.05       0.57 f
+  U15506/ZN (NOR4_X1)                      0.10       0.67 r
+  U15505/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[44] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[46] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15359/ZN (OAI22_X1)                     0.07       0.44 f
+  U15358/ZN (AOI221_X1)                    0.08       0.52 r
+  U15357/ZN (NAND4_X1)                     0.05       0.57 f
+  U15356/ZN (NOR4_X1)                      0.10       0.67 r
+  U15355/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[46] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[53] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14759/ZN (OAI22_X1)                     0.07       0.44 f
+  U14758/ZN (AOI221_X1)                    0.08       0.52 r
+  U14757/ZN (NAND4_X1)                     0.05       0.57 f
+  U14756/ZN (NOR4_X1)                      0.10       0.67 r
+  U14755/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[53] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[43] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15584/ZN (OAI22_X1)                     0.07       0.44 f
+  U15583/ZN (AOI221_X1)                    0.08       0.52 r
+  U15582/ZN (NAND4_X1)                     0.05       0.57 f
+  U15581/ZN (NOR4_X1)                      0.10       0.67 r
+  U15580/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[43] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[37] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U16109/ZN (OAI22_X1)                     0.07       0.44 f
+  U16108/ZN (AOI221_X1)                    0.08       0.52 r
+  U16107/ZN (NAND4_X1)                     0.05       0.57 f
+  U16106/ZN (NOR4_X1)                      0.10       0.67 r
+  U16105/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[37] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[60] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14159/ZN (OAI22_X1)                     0.07       0.44 f
+  U14158/ZN (AOI221_X1)                    0.08       0.52 r
+  U14157/ZN (NAND4_X1)                     0.05       0.57 f
+  U14156/ZN (NOR4_X1)                      0.10       0.67 r
+  U14155/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[60] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[48] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15209/ZN (OAI22_X1)                     0.07       0.44 f
+  U15208/ZN (AOI221_X1)                    0.08       0.52 r
+  U15207/ZN (NAND4_X1)                     0.05       0.57 f
+  U15206/ZN (NOR4_X1)                      0.10       0.67 r
+  U15205/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[48] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[47] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15284/ZN (OAI22_X1)                     0.07       0.44 f
+  U15283/ZN (AOI221_X1)                    0.08       0.52 r
+  U15282/ZN (NAND4_X1)                     0.05       0.57 f
+  U15281/ZN (NOR4_X1)                      0.10       0.67 r
+  U15280/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[47] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[49] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U15134/ZN (OAI22_X1)                     0.07       0.44 f
+  U15133/ZN (AOI221_X1)                    0.08       0.52 r
+  U15132/ZN (NAND4_X1)                     0.05       0.57 f
+  U15131/ZN (NOR4_X1)                      0.10       0.67 r
+  U15130/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[49] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[65] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13784/ZN (OAI22_X1)                     0.07       0.44 f
+  U13783/ZN (AOI221_X1)                    0.08       0.52 r
+  U13782/ZN (NAND4_X1)                     0.05       0.57 f
+  U13781/ZN (NOR4_X1)                      0.10       0.67 r
+  U13780/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[65] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[58] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14384/ZN (OAI22_X1)                     0.07       0.44 f
+  U14383/ZN (AOI221_X1)                    0.08       0.52 r
+  U14382/ZN (NAND4_X1)                     0.05       0.57 f
+  U14381/ZN (NOR4_X1)                      0.10       0.67 r
+  U14380/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[58] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[64] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U13859/ZN (OAI22_X1)                     0.07       0.44 f
+  U13858/ZN (AOI221_X1)                    0.08       0.52 r
+  U13857/ZN (NAND4_X1)                     0.05       0.57 f
+  U13856/ZN (NOR4_X1)                      0.10       0.67 r
+  U13855/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[64] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Ip[29] (input port)
+  Endpoint: Op[61] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  combShifter        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  Ip[29] (in)                              0.00       0.00 f
+  U10174/ZN (INV_X1)                       0.05       0.05 r
+  U10175/ZN (INV_X2)                       0.09       0.14 f
+  U10248/ZN (INV_X2)                       0.23       0.36 r
+  U14084/ZN (OAI22_X1)                     0.07       0.44 f
+  U14083/ZN (AOI221_X1)                    0.08       0.52 r
+  U14082/ZN (NAND4_X1)                     0.05       0.57 f
+  U14081/ZN (NOR4_X1)                      0.10       0.67 r
+  U14080/ZN (NAND2_X1)                     0.03       0.69 f
+  Op[61] (out)                             0.00       0.69 f
+  data arrival time                                   0.69
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

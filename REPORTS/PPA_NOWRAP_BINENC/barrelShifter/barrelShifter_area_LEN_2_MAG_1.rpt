@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : area
+Design : barrelShifter
+Version: P-2019.03
+Date   : Tue Apr 26 20:24:19 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                           15
+Number of nets:                            17
+Number of cells:                            7
+Number of combinational cells:              5
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       4
+
+Combinational area:                  8.246000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                     8.246000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+barrelShifter                        8.2460    100.0    4.5220     0.0000  0.0000  barrelShifter
+genblk2_layer_1_0__m1_layer          1.8620     22.6    1.8620     0.0000  0.0000  MUX2_1
+genblk2_layer_1_1__m1_layer          1.8620     22.6    1.8620     0.0000  0.0000  MUX2_0
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                   8.2460     0.0000  0.0000
+
+1

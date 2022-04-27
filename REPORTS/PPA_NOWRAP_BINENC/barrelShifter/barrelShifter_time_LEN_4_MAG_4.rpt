@@ -1,0 +1,2916 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 100
+Design : barrelShifter
+Version: P-2019.03
+Date   : Tue Apr 26 20:25:40 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.41 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.41 r
+  Op[0] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.41 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.41 r
+  Op[0] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.41 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.41 r
+  Op[3] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.41 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.41 r
+  Op[3] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U22/ZN (OAI221_X1)                                      0.05       0.34 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.34 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U22/ZN (OAI221_X1)                                      0.05       0.34 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.34 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U30/ZN (OAI221_X1)                                      0.05       0.34 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.34 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U30/ZN (OAI221_X1)                                      0.05       0.34 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.34 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.36 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.36 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.36 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.35 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.35 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.35 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.35 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.35 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U30/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.35 r
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 r
+  Op[0] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.35 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U22/ZN (OAI221_X1)                                      0.07       0.35 r
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.35 r
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.05       0.40 r
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 r
+  Op[3] (out)                                             0.00       0.40 r
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U22/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U22/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.40 f
+  Op[3] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U30/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U30/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.40 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.40 f
+  Op[0] (out)                                             0.00       0.40 f
+  data arrival time                                                  0.40
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U24/ZN (OAI211_X1)                                      0.04       0.33 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.33 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U24/ZN (OAI211_X1)                                      0.04       0.33 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.33 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U26/ZN (OAI211_X1)                                      0.04       0.33 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.33 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U35/ZN (NAND2_X1)                                       0.05       0.29 r
+  U26/ZN (OAI211_X1)                                      0.04       0.33 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.33 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.33 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.33 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.33 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.05       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.05       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U26/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.32 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U26/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.32 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U26/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.32 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U35/ZN (NAND2_X1)                                       0.05       0.28 r
+  U26/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.32 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.39 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U26/ZN (OAI211_X1)                                      0.05       0.34 r
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.34 r
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.04       0.39 r
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 r
+  Op[1] (out)                                             0.00       0.39 r
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U26/ZN (OAI211_X1)                                      0.05       0.34 r
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.34 r
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.04       0.39 r
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.39 r
+  Op[1] (out)                                             0.00       0.39 r
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U24/ZN (OAI211_X1)                                      0.05       0.34 r
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.34 r
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.04       0.39 r
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 r
+  Op[2] (out)                                             0.00       0.39 r
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 f
+  U37/ZN (INV_X1)                                         0.05       0.24 r
+  U35/ZN (NAND2_X1)                                       0.05       0.29 f
+  U24/ZN (OAI211_X1)                                      0.05       0.34 r
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.34 r
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.04       0.39 r
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.39 r
+  Op[2] (out)                                             0.00       0.39 r
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.39 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.39 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.38 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.38 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.38 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.38 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.38 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.38 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.38 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.38 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.38 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.38 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U26/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.32 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.38 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U26/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_1__m1_layer/A (MUX2_2)                  0.00       0.32 f
+  genblk2_layer_1_1__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_1__m1_layer/Y (MUX2_2)                  0.00       0.38 f
+  Op[1] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.38 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U30/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_0__m1_layer/A (MUX2_3)                  0.00       0.32 f
+  genblk2_layer_1_0__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_0__m1_layer/Y (MUX2_3)                  0.00       0.38 f
+  Op[0] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.38 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[6]
+              (input port)
+  Endpoint: Op[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[6] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.08       0.08 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.23 f
+  U31/ZN (NAND3_X1)                                       0.05       0.28 r
+  U24/ZN (OAI211_X1)                                      0.04       0.32 f
+  genblk2_layer_1_2__m1_layer/B (MUX2_1)                  0.00       0.32 f
+  genblk2_layer_1_2__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_2__m1_layer/Y (MUX2_1)                  0.00       0.38 f
+  Op[2] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.38 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: shift_mag[5]
+              (input port)
+  Endpoint: Op[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  barrelShifter      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  shift_mag[5] (in)                                       0.00       0.00 f
+  U40/ZN (NOR2_X1)                                        0.09       0.09 r
+  U39/ZN (NAND2_X1)                                       0.04       0.12 f
+  U38/ZN (XNOR2_X1)                                       0.07       0.19 r
+  U37/ZN (INV_X1)                                         0.04       0.24 f
+  U27/ZN (NAND3_X1)                                       0.05       0.28 r
+  U22/ZN (OAI221_X1)                                      0.04       0.32 f
+  genblk2_layer_1_3__m1_layer/B (MUX2_0)                  0.00       0.32 f
+  genblk2_layer_1_3__m1_layer/U1/Z (MUX2_X1)              0.06       0.38 f
+  genblk2_layer_1_3__m1_layer/Y (MUX2_0)                  0.00       0.38 f
+  Op[3] (out)                                             0.00       0.39 f
+  data arrival time                                                  0.39
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

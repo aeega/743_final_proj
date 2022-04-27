@@ -38,6 +38,8 @@ module regShifter( Ip, Op, shift_mag, clock);
     parameter LEN = 1;
     parameter MAX_SHIFT_MAG = 0;
     parameter WRAP_AROUND = 0;
+    parameter SHIFT_AS_ONE_HOT = 1;
+
 
     input bit [0:LEN-1] Ip; //The LEN-bit Input line 
     output bit [0:LEN-1] Op; //The LEN-bit Output line 
@@ -45,17 +47,19 @@ module regShifter( Ip, Op, shift_mag, clock);
     input logic clock; 
 
     bit sign;
-    logic [$clog2(2*MAX_SHIFT_MAG):0] value, shift_value;
+    logic [$clog2(2*MAX_SHIFT_MAG):0] shift_binary, shift_value;
     logic [(2*LEN)-1:0] temp;
 
    
-    encoder #(.MAX_SHIFT_MAG(MAX_SHIFT_MAG)) OneHot_2_binary (.binary_shift(value), .one_hot_shift(shift_mag));
+    if (SHIFT_AS_ONE_HOT) begin
+        encoder #(.MAX_SHIFT_MAG(MAX_SHIFT_MAG)) OneHot_2_binary (.binary_shift(shift_binary), .one_hot_shift(shift_mag));
+    end
+    else begin
+        assign shift_binary = (shift_mag[$clog2(2*MAX_SHIFT_MAG):2*MAX_SHIFT_MAG]) ;
+    end
 
-    assign sign = value < MAX_SHIFT_MAG;     // Direction of the shift or rotate operation
-
-    // Getting shift value from One-hot encoding
-    assign shift_value = sign ? (MAX_SHIFT_MAG - value):(value - MAX_SHIFT_MAG);
-
+    assign sign = shift_binary < MAX_SHIFT_MAG;
+    assign shift_value = sign ? (MAX_SHIFT_MAG - shift_binary) : (shift_binary - MAX_SHIFT_MAG) ;
 
     assign temp = {Ip,Ip} << shift_value;
 

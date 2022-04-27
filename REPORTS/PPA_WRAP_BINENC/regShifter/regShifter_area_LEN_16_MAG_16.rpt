@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : regShifter
+Version: P-2019.03
+Date   : Tue Apr 26 22:26:39 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/andrew.cmu.edu/course/18/743/backend/45nm_Nangate/pdk_v1.3_v2010_12/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.db)
+
+Number of ports:                           86
+Number of nets:                           334
+Number of cells:                          290
+Number of combinational cells:            272
+Number of sequential cells:                16
+Number of macros/black boxes:               0
+Number of buf/inv:                         77
+Number of references:                      18
+
+Combinational area:                313.348002
+Buf/Inv area:                       41.496000
+Noncombinational area:              97.888000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   411.236002
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------
+regShifter                         411.2360    100.0  285.9500    97.8880  0.0000  regShifter
+r311                                27.3980      6.7   27.3980     0.0000  0.0000  regShifter_DW01_sub_0
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------
+Total                                                 313.3480    97.8880  0.0000
+
+1
